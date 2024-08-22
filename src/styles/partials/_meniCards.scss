@@ -1,0 +1,81 @@
+.title-meniPg{
+    text-align: center;
+    padding-top: 2em;
+    font-size: 3em;
+} 
+.meni-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) ;
+    grid-gap: 4em 1.5em;
+    padding: 5% 25%;
+}
+.meni-recomendation{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) ;
+    grid-gap: 4em 2em;
+    padding: 5% 20%;
+}
+.meni-card{
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 10px 15px var(--shadow-color);
+    height: 110%;
+    position: relative;
+    .meni-card-info{
+        padding: 0.7em 1em;
+    }
+    .meni-title{
+        font-size: 1.1em;
+        font-weight: bold;
+        margin-bottom: 0.3em;
+        color: var(--black);
+    }
+    .description{
+        color: var(--black);
+        opacity: 0.8;
+        font-size: 0.9em;
+        letter-spacing: 1px;
+        margin-bottom: 1em;
+    }
+    .view-btn{
+        font-size: 1em;
+        font-weight: bold;
+        color: var(--orange);
+        margin-top: 0.75em;
+        display: inline-block;
+        position: absolute;
+        bottom: 1em;
+        left: 1em;
+        cursor: pointer;
+        font-weight: 800;
+        transition: 0.5s ease-in-out;
+        &:hover{
+            color: var(--black);
+            transform: scale(1.02);
+        }
+    }
+    .meni-price{
+        font-size: 1em;
+        color: var(--orange);
+        font-weight: 700;
+        position: absolute;
+        bottom: 1em;
+        left: 1em;
+    }
+}
+.back-tag a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--orange);
+    font-size: 1.5em;
+    margin-bottom: 5em;
+    transition: 0.5s ease-in-out;
+    font-weight: 800;
+    cursor: pointer;
+        &:hover{
+            color: var(--black);
+            transform: scale(1.02);
+        }
+
+}

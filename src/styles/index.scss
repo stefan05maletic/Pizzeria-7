@@ -1,0 +1,76 @@
+:root {
+    --maroon: #630606;
+    --maroon-light: #890F0D;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --orange: #E09B22;
+    --white: #ffff;
+    --black: #000000;
+    --font-size: 16px;
+    --animation-speed: 1;
+}
+@function getAnimationDuration($duration: number) {
+    @return calc($duration *var(--animation-speed));
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: var(--font-size);
+    font-family: "Roboto Slab", serif;
+    padding-top: 55px;
+}
+a {
+    text-decoration: none;
+}
+img{
+    object-fit: contain;
+    aspect-ratio: 3/2;
+}
+.btn{
+    border: none;
+    outline: none;
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 0.7em 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px var(--shadow-color);
+    &:hover{
+    box-shadow: 0 5px 10px var(--shadow-color);
+    }
+}
+.main {
+    background-color: var(--white);
+    padding-block: 7vh;
+}
+.container {
+    padding-inline: 25vh;
+}
+.backgroundImg{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../../public/img/nadya-spetnitskaya-tOYiQxF9-Ys-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@import "partials/navbar";
+@import "partials/hero";
+@import "partials/basicInfo";
+@import "partials/panel";
+@import "partials/footer";
+@import "partials/meniCards";
+@import "partials/quart";
+@import "partials/contact";
+@import "partials/animations";
+@import "partials/media-queries";
+

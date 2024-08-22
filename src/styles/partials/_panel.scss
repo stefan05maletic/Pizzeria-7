@@ -1,0 +1,29 @@
+.panel-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-block: 3em;
+    text-align: center;
+    .panel-box{
+        width: 100%;
+        height: auto;
+        .panel-icon{
+            font-size: 8em;
+            margin-bottom: 0.1em;
+            color: var(--black);
+        }
+        h3{
+            font-size: 1.3em;
+            color: var(--black);
+        }
+        img{
+            width: 50%;
+            aspect-ratio: 3/3;
+            object-fit: contain;
+        }
+    }
+}
+.panel-title{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2em;
+}

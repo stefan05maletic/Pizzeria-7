@@ -1,0 +1,158 @@
+@media screen and (max-width: 1280px) {
+    .container{
+        padding-inline: 18vw;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .container{
+        padding-inline: 18vw;
+    }
+    .panel-table .panel-box .panel-icon{
+        font-size: 7em;
+        margin-right: 0.2em;
+    }
+    .meni-container{
+        padding: 7% 20%;
+    }
+    .quart-section{
+        h2{
+            font-size: 1.3em;
+            padding-inline: 0.4em;
+        }
+        .quart-description .quart-list{
+            padding: 1em 3.5em;
+            ul li{
+                font-size: 0.8em;   
+            }
+        }
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        .nav-links {
+            display: none;
+        }
+        .sidebar-btn {
+            display: block;
+        }
+    }
+    .contact-container{
+        grid-template-columns: 1fr;
+        .contact-information{
+            padding: 2em 4em;
+        }
+    }
+    .section{
+        .col{
+            width: 100%;
+            padding: 0 !important;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        .title{
+            font-size: 2.5em;
+        }
+        .info{
+            font-size: 1em;
+        }
+    }
+    .panel-table{
+        grid-template-columns: 1fr 1fr;
+        .panel-box .panel-icon{
+            font-size: 5em;
+        }
+        .panel-box h3{
+            font-size: 1em;
+        }
+    }
+    .container{
+        padding-inline: 6vw;
+    }
+    .meni-container{
+        padding: 10% 15%;
+    }
+    .footer{
+        padding: 2em;
+        grid-template-columns: repeat(4, 1fr);
+        .footer-section:nth-child(1){
+            grid-column: span 4;
+            padding-bottom: 1em;
+        }
+        .footer-section:nth-child(2), .footer-section:nth-child(3){
+            grid-column: span 2;
+        }
+    }
+    .title-meniPg{
+        font-size: 2.4em;
+        padding-top: 1em;
+    }
+    .quart-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        .quart-section h2{
+            font-size: 1.2em;
+        }
+        .quart-description .quart-list{
+            padding: 1em 3.5em;
+            ul li{
+                font-size: 0.8em;   
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .container{
+        padding-inline: 3vw;
+    }
+    .title-meniPg{
+        margin-bottom: -1em;
+        margin-top: 1em;
+        font-size: 1.6em;
+    }
+    .meni-container{
+        padding: 15% 20%;
+    }
+    .quart-section{
+        h2{
+        font-size: 1em;
+        }
+        .quart-description .quart-list{
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+            gap: 0%;    
+        }
+    }
+    .contact-container .contact-information {
+        text-align: center;
+        padding: 2em;
+        h2{
+            font-size: 1.2em;
+        }
+        h4{
+            font-size: 1em;
+            margin-top: 0.5em;
+        }
+        p{ 
+            font-size: 1em;
+        }
+    }
+    .footer{
+        padding: 1.2em;
+        text-align: center;
+        grid-template-columns: repeat(4, 1fr);
+        .footer-section:nth-child(2), .footer-section:nth-child(3){
+            grid-column: span 4;
+        }
+        .footer-section p.title{
+            font-size: 1em;
+            margin-bottom: 0.4em;
+        }
+        .footer-section p{
+            font-size: 0.8em;
+            margin-bottom: 0.3 em;
+        }
+    }
+}
