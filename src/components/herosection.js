@@ -1,15 +1,15 @@
 import Image from "./images"
 export default function HeroSection(){
     const images =[
-        "/img/jaja-kobasica.jpg",
-        "/img/tuna-salata.jpg",
-        "/img/file-slanina-sir.jpg",
-        "/img/lazanjite.jpg",
-        "/img/gulas.jpg",
-        "/img/pica7.jpg",
-        "/img/ustipci-sunka.jpg",
-        "/img/belo-sir.jpg",
-        "/img/seherezada-palacinke.jpg"
+        "../../public/img/jaja-kobasica.jpg",
+        "../../public/img/tuna-salata.jpg",
+        "../../public/img/file-slanina-sir.jpg",
+        "../../public/img/lazanjite.jpg",
+        "../../public/img/gulas.jpg",
+        "../../public/img/pica7.jpg",
+        "../../public/img/ustipci-sunka.jpg",
+        "../../public/img/belo-sir.jpg",
+        "../../public/img/seherezada-palacinke.jpg"
     ]
     return(
         <div className="section hero">

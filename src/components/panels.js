@@ -26,16 +26,16 @@ export default function Panels(){
         </div>
         <div className="panel-table">
             <div className="panel-box">
-                <img src="/img/birra-moretti.png" alt=""/>
+                <img src="../../public/img/birra-moretti.png" alt=""/>
             </div>
             <div className="panel-box">
-                <img src="/img/goppion.png" alt=""/>
+                <img src="../../public/img/goppion.png" alt=""/>
             </div>
             <div className="panel-box">
-                <img src="/img/lasko_mobile.png" alt=""/>
+                <img src="../../public/img/lasko_mobile.png" alt=""/>
             </div>
             <div className="panel-box">
-                <img src="/img/coca-cola.png" alt=""/>
+                <img src="../../public/img/coca-cola.png" alt=""/>
             </div>
         </div>
         </>
