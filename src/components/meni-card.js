@@ -11,4 +11,4 @@ export default function MeniCard({meni}){
             </div>
         </div>
     )
-}
+} 

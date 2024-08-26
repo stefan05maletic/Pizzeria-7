@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import MeniSection from "../components/meni-section"
 import Contact from "../components/contact"
 export default function Dodaci(){
@@ -97,7 +98,7 @@ export default function Dodaci(){
                     ))}
             </div>
             <div className="back-tag">
-                <a href="/meni">Nazad</a>
+                <Link  to="/meni">Nazad</Link>
             </div>
             <div>
                 <Contact/>

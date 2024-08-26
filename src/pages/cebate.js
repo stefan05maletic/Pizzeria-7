@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import MeniSection from "../components/meni-section"
 import Contact from "../components/contact"
 export default function Cebate(){
@@ -67,7 +68,7 @@ export default function Cebate(){
                     ))}
             </div>
             <div className="back-tag">
-                <a href="/meni">Nazad</a>
+                <Link  to="/meni">Nazad</Link>
             </div>
             <div>
                 <Contact/>
