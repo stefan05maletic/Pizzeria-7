@@ -9,7 +9,7 @@ export default function Navbar(){
     const links = [
         {
             name: "Naslovna",
-            path: "/naslovna",
+            path: "/Pizzeria-7",
             icon: faHome
         },
         {

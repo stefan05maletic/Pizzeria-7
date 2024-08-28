@@ -27,7 +27,7 @@ function App() {
       </Routes>
       <div>
         <Routes>
-          <Route path="/naslovna" element={<Naslovna />} />
+          <Route path="/Pizzeria-7" element={<Naslovna />} />
           <Route path="/meni" element={<Meni />} />
           <Route path="/dorucak" element={<Dorucak />} />
           <Route path="/cebate" element={<Cebate />} />
