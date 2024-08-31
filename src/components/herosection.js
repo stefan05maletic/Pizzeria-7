@@ -1,8 +1,8 @@
 import Image from "../images/images"
 export default function HeroSection(){
     const images =[
-        "require('../images/jaja-kobasica.jpg').default",
-        "require('../images/tuna-salata.jpg').default",
+        "img/jaja-kobasica.jpg",
+        "img/tuna-salata.jpg",
         "img/file-slanina-sir.jpg",
         "img/lazanjite.jpg",
         "img/gulas.jpg",
