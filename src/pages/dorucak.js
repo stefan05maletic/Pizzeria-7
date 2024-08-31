@@ -4,19 +4,19 @@ import Contact from "../components/contact"
 export default function Dorucak(){
     const dorucakOffer =[
         {   name: "Doručak pizza šunka",
-            image: "../../public/img/dorucak-pica-sunka.jpg",
+            image: "./img/dorucak-pica-sunka.jpg",
             description: "Pizza 25cm sa šunkom, jajima, sirom i šampinjonima.",
             price: "455.00 RSD",
         },
         {
             name:"Doručak pizza slaninica",
-            image:"../../public/img/dorucak-pica-slaninica.jpg",
+            image:"./img/dorucak-pica-slaninica.jpg",
             description:"Pizza 25cm sa pančetom, sirom, jajima, paradajzom i pavlakom.",
             price:"525.00 RSD",
         },
         {
             name:"Doručak pizza povrće",
-            image:"../../public/img/dorucak-pica-povrce.jpg",
+            image:"./img/dorucak-pica-povrce.jpg",
             description:"Pizza 25cm sa tikvicama, paprikom, šampinjonima, čeri paradajzom, sirom i jajima.",
             price:"485.00 RSD",
         },

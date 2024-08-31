@@ -22,11 +22,9 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route index element={<Naslovna/>}/>
-      </Routes>
       <div>
         <Routes>
+          <Route index element={<Naslovna/>}/>
           <Route path="/Pizzeria-7" element={<Naslovna />} />
           <Route path="/meni" element={<Meni />} />
           <Route path="/dorucak" element={<Dorucak />} />

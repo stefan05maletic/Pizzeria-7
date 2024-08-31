@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Images from "./images"
+import Images from "../images/images"
 export default function MeniCard({meni}){ 
     return(
         <div className="meni-card">

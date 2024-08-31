@@ -1,15 +1,15 @@
-import Image from "./images"
+import Image from "../images/images"
 export default function HeroSection(){
     const images =[
-        "../../public/img/jaja-kobasica.jpg",
-        "../../public/img/tuna-salata.jpg",
-        "../../public/img/file-slanina-sir.jpg",
-        "../../public/img/lazanjite.jpg",
-        "../../public/img/gulas.jpg",
-        "../../public/img/pica7.jpg",
-        "../../public/img/ustipci-sunka.jpg",
-        "../../public/img/belo-sir.jpg",
-        "../../public/img/seherezada-palacinke.jpg"
+        "require('../images/jaja-kobasica.jpg').default",
+        "require('../images/tuna-salata.jpg').default",
+        "img/file-slanina-sir.jpg",
+        "img/lazanjite.jpg",
+        "img/gulas.jpg",
+        "img/pica7.jpg",
+        "img/ustipci-sunka.jpg",
+        "img/belo-sir.jpg",
+        "img/seherezada-palacinke.jpg"
     ]
     return(
         <div className="section hero">
@@ -22,8 +22,8 @@ export default function HeroSection(){
                 <a href="/meni" className="btn" >Pogledaj meni</a>
             </div>
             <div className="col gallery">
-                {images.map((src, index) => (
-                <Image key={index} imgSrc={src} pt={"90%"}/>
+                {images.map((src, id) => (
+                <Image key={id} imgSrc={src} pt={"90%"}/>
                 ))}       
             </div>
         </div>

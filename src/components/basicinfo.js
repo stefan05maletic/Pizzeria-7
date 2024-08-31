@@ -11,7 +11,7 @@ export default function BasicInfo() {
     return(
     <div className="section basicInfo">
         <div className="col img">
-            <img src="../../public/img/logo2.png" alt=""/>     
+            <img src="img/logo2.png" alt=""/>     
         </div>
         <div className="col typography">
             <h1 className="title">Ko smo mi?</h1>

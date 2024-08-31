@@ -1,4 +1,4 @@
-import Images from "./images"
+import Images from "../images/images"
 export default function PartOfMeni({parts}){
     return(
         <div className="meni-card">
