@@ -11,7 +11,7 @@ export default function Footer(){
             <div className="footer-section">
                 <p className="title">Kontaktirajte nas</p>
                 <p><FontAwesomeIcon icon={faEnvelope} className="social-icon"/> pizzeria7@gmail.com</p>
-                <p><FontAwesomeIcon icon={faPhone} className="social-icon"/>06302100131</p>
+                <p><FontAwesomeIcon icon={faPhone} className="social-icon"/>+381 21 303 2043</p>
                 <p><FontAwesomeIcon icon={faLocationDot} className="social-icon" />Kraljević Marka 23 Novi Sad </p>
             </div>
             <div className="footer-section">
