@@ -1,4 +1,4 @@
-import { faSquare, faEnvelope, faLocationDot, faPhone  } from "@fortawesome/free-solid-svg-icons"
+import { faSquare, faEnvelope, faLocationDot, faPhone, faClock } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
 export default function Footer(){
@@ -12,7 +12,9 @@ export default function Footer(){
                 <p className="title">Kontaktirajte nas</p>
                 <p><FontAwesomeIcon icon={faEnvelope} className="social-icon"/> pizzeria7@gmail.com</p>
                 <p><FontAwesomeIcon icon={faPhone} className="social-icon"/>+381 21 303 2043</p>
+                <p><FontAwesomeIcon icon={faPhone} className="social-icon"/>+381 66 817 1717</p>
                 <p><FontAwesomeIcon icon={faLocationDot} className="social-icon" />Kraljević Marka 23 Novi Sad </p>
+                <p><FontAwesomeIcon icon={faClock} className="social-icon"/>Ponedeljak - Nedelja 07:00-23:00</p>
             </div>
             <div className="footer-section">
                 <p className="title">Društvena mreže</p>

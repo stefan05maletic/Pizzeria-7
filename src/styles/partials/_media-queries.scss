@@ -37,12 +37,6 @@
             display: block;
         }
     }
-    .contact-container{
-        grid-template-columns: 1fr;
-        .contact-information{
-            padding: 2em 4em;
-        }
-    }
     .section{
         .col{
             width: 100%;
@@ -123,20 +117,6 @@
             justify-content: center;
             align-items: center;
             gap: 0%;    
-        }
-    }
-    .contact-container .contact-information {
-        text-align: center;
-        padding: 2em;
-        h2{
-            font-size: 1.2em;
-        }
-        h4{
-            font-size: 1em;
-            margin-top: 0.5em;
-        }
-        p{ 
-            font-size: 1em;
         }
     }
     .footer{

@@ -1,31 +1,6 @@
 .contact-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: var(--maroon);
     .map iframe{
         width: 100%;
         height: 26em;
-    }
-    .contact-information{
-        padding: 3em 7em ;
-        color: var(--white);
-        h2{
-            font-size: 1.8em;
-            margin-block: .4em;
-        }
-        p{
-            font-size: 1.1em;
-            margin-bottom: 0.2em;
-        }
-        h4{
-            margin-top: 1.3em;
-            font-size: 1.3em;
-        }
-        .icon{
-            font-size: 1em;
-            color: var(--black);
-            margin-right: 0.3em;
-        }
-
     }
 }
