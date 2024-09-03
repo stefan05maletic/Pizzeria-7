@@ -1,7 +1,8 @@
+import logo2 from "../images/logo2.png"
 export default function BasicInfo() {
     const list =[
-        "Nalazimo se na adresi Kraljević Marka 23 u Novom Sadu",
-        "Pizzerija postoji još od 2012. godine",
+        "Nalazimo se na adresi Kraljević Marka 23. u Novom Sadu",
+        "Naš brend postoji još od 2012. godine",
         "Osim pizza, nudimo širok izbor domaće testenine, pilećih specijaliteta, obrok salata..",
         "Naš lokal je najpoznatiji po obilnim porcijama",
         "U našem meniju se mogu naći i posni obroci",
@@ -11,7 +12,7 @@ export default function BasicInfo() {
     return(
     <div className="section basicInfo">
         <div className="col img">
-            <img src="img/logo2.png" alt=""/>     
+            <img src={logo2} alt="Logo"/>     
         </div>
         <div className="col typography">
             <h1 className="title">Ko smo mi?</h1>

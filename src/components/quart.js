@@ -16,7 +16,7 @@ export default function Quart(){
                         <li>Dimitrija Avramović</li>
                         <li>Dostojevskog</li>
                         <li>Dositejeva</li>
-                        <li>Đorđa Marković Kodera</li>
+                        <li>Đorđa Markovića Kodera</li>
                         <li>Đurđa Brankovića</li>
                         <li>Felegi Tivadara</li>
                         <li>Hilandarska</li>

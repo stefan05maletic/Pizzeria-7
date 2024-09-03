@@ -1,86 +1,102 @@
 import { Link } from "react-router-dom"
 import MeniSection from "../components/meni-section"
 import Contact from "../components/contact"
+import rostiljKobasica from "../images/rostilj-kobasica.jpg"
+import beloSir from "../images/belo-sir.jpg"
+import sicilijana from "../images/sicilijanska-snicla.jpg"
+import becka from "../images/becka.jpg"
+import fileSlaninaSir from "../images/file-slanina-sir.jpg"
+import piletinaGljive from "../images/piletina-gljive.jpg"
+import piletinaKikiriki from "../images/piletina-kikiriki.jpg"
+import piletinaSpanac from "../images/piletina-spanac.jpg"
+import fileSaRostilja from "../images/file-sa-rostilja.jpg"
+import kariPiletina from "../images/kari-piletina.jpg"
+import batak from "../images/batak.jpg"
+import pohovaniSir from "../images/pohovani-sir.jpg"
+import pomfrit from "../images/pomfrit500g.jpg"
+import corba from "../images/corba.jpg"
+import pasulj from "../images/pasulj.jpg"
+import gulas from "../images/gulas.jpg"
 export default function Rostilj(){
     const rostiljOffer =[
         {   name: "Roštilj kobasica 200g",
-            image: "img/rostilj-kobasica.jpg",
+            image: rostiljKobasica,
             description: "Kobasica 200g, pomfrit, karamelizovani luk, sezonska salata, senf, domaća lepinja.",
             price: "855.00 RSD",
         },
         {   name: "Belo meso sa sirom 250g",
-            image: "img/belo-sir.jpg",
+            image: beloSir,
             description: "Pileći file 250g, sos od četiri vrste sira, pomfrit, sezonska salata, domaća lepinja.",
             price: "865.00 RSD",
         },
         {
             name: "Sicilijanska šnicla",
-            image: "img/sicilijanska-snicla.jpg",
+            image: sicilijana,
             description: "Pohovani pileći file, pelat, testenina u marinadi, kačkavalj, parmezan.",
             price: "965.00 RSD",
         },
         {   name: "Bečka pileća šnicla 250g",
-            image: "img/becka.jpg",
+            image: becka,
             description: "Pileći file 250g, tzatziki sos pomfrit, sezonska salata, domaća lepinja.",
             price: "855.00 RSD",
         },
         {   name: "File sa slaninom i sirom 250g",
-            image: "img/file-slanina-sir.jpg",
+            image: fileSlaninaSir,
             description: "Pileći file 250g, pančeta slanina 50g, sir, kajmak, pomfrit, sezonska salata, domaća lepinja.",
             price: "1005.00 RSD",
         },
         {   name: "Piletina u sosu od gljiva",
-            image: "img/piletina-gljive.jpg",
+            image: piletinaGljive,
             description: "Pileći file 250g, sos sa šampinjonima, pomfrit, sezonska salata, domaća lepinja.",
             price: "855.00 RSD",
         },
         {   name: "Piletina sa kikirikijem",
-            image: "img/piletina-kikiriki.jpg",
+            image: piletinaKikiriki,
             description: "Pileći file 250g, sos od kikiriki putera, pomfrit, sezonska salata, domaća lepinja.",
             price: "855.00 RSD",
         },
         {   name: "Piletina u sosu od spanaća",
-            image: "img/piletina-spanac.jpg",
+            image: piletinaSpanac,
             description: "Pileći file 250g, preliv od spanaća i parmezana, pomfrit, sezonska salata, domaća lepinja.",
             price: "855.00 RSD",
         },
         {   name: "Pileći file sa roštilja",
-            image: "img/file-sa-rostilja.jpg",
+            image: fileSaRostilja,
             description: "Pileći file 250g, luk, pomfrit, sezonska salata, domaća lepinja.",
             price: "855.00 RSD",
         },
         {   name: "Curry piletina",
-            image: "img/kari-piletina.jpg",
+            image: kariPiletina,
             description: "Pileći file 250g, curry sos, pomfrit, sezonska salata, domaća lepinja.",
             price: "865.00 RSD",
         },
         {   name: "Pileći batak 300g",
-            image: "img/batak.jpg",
+            image: batak,
             description: "Batak 300g, luk, pomfrit, sezonska salata, domaća lepinja.",
             price: "855.00 RSD",
         },
         {   name: "Pohovani sir 200g",
-            image: "img/pohovani-sir.jpg",
+            image: pohovaniSir,
             description: "Pohovani kačkavalj, grilovano povrće, tzatziki sos, pomfrit, domaća lepinja.",
             price: "815.00 RSD",
         },
         {   name: "Pomfrit porcija 500g - POSNO",
-            image: "img/pomfrit500g.jpg",
+            image: pomfrit,
             description: "Pomfrit 500g, majonez",
             price: "400.00 RSD",
         },
         {   name: "Bačka čorba 0.5l",
-            image: "img/corba.jpg",
+            image: corba,
             description: "Pileći file 130g, šargarepa, celer, kisela pavlaka, focaccia.",
             price: "535.00 RSD",
         },
         {   name: "Pasulj sa kobasicama",
-            image: "img/pasulj.jpg",
+            image: pasulj,
             description: "Pasulj, roštilj kobasica, ljubičasti luk, sezonska salata, domaća lepinja.",
             price: "745.00 RSD",
         },
         {   name: "Juneći gulaš sa testeninom",
-            image: "img/gulas.jpg",
+            image: gulas,
             description: "Juneći gulaš, domaća testenina, sezonska salata, domaća lepinja.",
             price: "905.00 RSD",
         },

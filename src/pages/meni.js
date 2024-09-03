@@ -1,51 +1,59 @@
 import MeniCard from "../components/meni-card"
 import Contact from "../components/contact"
+import dorucak from "../images/dorucak.png"
+import cebata from "../images/cebata.png"
+import pizza from "../images/pizza.png"
+import pasta from "../images/pasta.png"
+import rostilj from "../images/rostilj.png"
+import deserti from "../images/desert.png"
+import dodaci from "../images/dodaci.png"
+import salata from "../images/salata.png"
 export default function Meni(){
     const offer =[
         {   name: "Doručak",
-            image: "img/dorucak.png", 
+            image: dorucak, 
             description: "Jaja na oko, omlet, doručak pice, kajgane, uštipci..",
             path: "/dorucak",
         },
         {
             name:"Ćebate",
-            image:"img/cebata.png",
+            image:cebata,
             description:"Razne vrste sendviča, poznatijih pod italijanskim nazivom 'Ciabatta'",
             path:"/cebate",
         },
         {
             name:"Pizze",
-            image:"img/pizza.png",
+            image:pizza,
             description:"Razne vrste pica, od klasičnih, do onih za prave gurmane",
             path:"/pizze",
         },
         {
             name:"Paste",
-            image:"img/pasta.png", 
+            image:pasta, 
             description:"Poznato italijansko jelo sa domaćim taljatelama, predstavlja pravi izbor za ukusan ručak!",    
             path:"/paste",
         },
         {
             name:"Obrok salate",
-            image:"img/salata.png", 
+            image:salata, 
             description:"Ukoliko ste ipak za nešto zdraviji obrok, onda su naše salate pravi izbor za vas",
             path:"/salate",
         },
         {
             name:"Roštilj i tradicionalna jela",
-            image:"img/rostilj.png",
+            image:rostilj,
             description:"Pileći specijaliteti sa raznim vrstama preliva",
             path:"/rostilj",
         },
         {
             name:"Deserti",
-            image:"img/desert.png",
+            image:deserti,
             description:"Najbolje za kraj, zasladite se sa uzivanjem",
             path:"/deserti",
         },
         {
             name:"Dodaci",
-            image:"img/dodaci.png",   
+            image:dodaci,   
             description:"Ukoliko smo nešto zaboravili kao sastojak, ispravite nas!",
             path: "/dodaci",
         }
