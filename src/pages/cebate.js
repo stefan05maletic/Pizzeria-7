@@ -51,7 +51,7 @@ export default function Cebate(){
         },
         {   name: "Giros ćebata",
             image: giros,
-            description: "Batak 250g, pomfrit 170g, tzatziki sos, zelena salata, ljubičasti luk.",
+            description: "Batak 200g, pomfrit 170g, tzatziki sos, zelena salata, ljubičasti luk.",
             price: "655.00 RSD",
         },
         {   name: "Index ćebata",

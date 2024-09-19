@@ -15,7 +15,7 @@ export default function Navbar(){
         {
             name: "Meni",
             path: "/meni",
-            icon: faUtensils
+            icon: faUtensils 
         },
     ]
 function closeSidebar(){
@@ -24,7 +24,7 @@ function closeSidebar(){
     return(
         <>
         <div className="navbar container">
-            <a href="#!" className="logo">Pizzeria <span>7</span></a>
+            <Link to="/Pizzeria-7" className="logo">Pizzeria <span>7</span></Link>
             <div className="nav-links">
                 {links.map(link => (
                     <Link className={location.pathname === link.path ? "active" : ""} to={link.path} key={link.name}>{link.name}</Link>

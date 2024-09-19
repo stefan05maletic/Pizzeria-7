@@ -112,6 +112,10 @@ export default function Dodaci(){
             image: sir,
             price: "110.00 RSD",
         },
+        {
+            name: "Roštilj kobasica 100g",
+            price:"270 RSD",
+        }
     ]
     return(
         <div>

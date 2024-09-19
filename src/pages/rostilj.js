@@ -21,7 +21,7 @@ export default function Rostilj(){
     const rostiljOffer =[
         {   name: "Roštilj kobasica 200g",
             image: rostiljKobasica,
-            description: "Kobasica 200g, pomfrit, karamelizovani luk, sezonska salata, senf, domaća lepinja.",
+            description: "Kobasica 200g, pomfrit, luk, sezonska salata, senf, domaća lepinja.",
             price: "930.00 RSD",
         },
         {   name: "Belo meso sa sirom 250g",
@@ -57,7 +57,7 @@ export default function Rostilj(){
         },
         {   name: "Piletina u sosu od spanaća",
             image: piletinaSpanac,
-            description: "Pileći file 250g, preliv od spanaća i parmezana, pomfrit, sezonska salata, domaća lepinja.",
+            description: "Pileći file 250g, preliv od spanaća, pomfrit, sezonska salata, domaća lepinja.",
             price: "930.00 RSD",
         },
         {   name: "Pileći file sa roštilja",
