@@ -6,16 +6,11 @@ import palacinkeBeliKrem from "../images/palacinke-beli-krem-plazma.jpg"
 import palacinkeSvarcvald from "../images/svarcvald-palacinke.jpg"
 import palacinkeSeherezada from "../images/seherezada-palacinke.jpg"
 import palacinkeDzem from "../images/palacinke-dzem.jpg"
-import masnice from "../images/masnice.jpg"
-import svarcvaldPica from "../images/svarcvald-pica.jpg"
-import seherezadaPica from "../images/seherezada-pica.jpg"
 import vafliCokoKrem from "../images/vafli-coko-krem.jpg"
 import vafliBeliKrem from "../images/vafli-beli-krem.jpg"
 import vafliSeherezada from "../images/vafli-seherezada.jpg"
 import vafliSvarcvald from "../images/vafli-svarcvald.jpg"
-import urmasice from "../images/urmasice.jpg"
 import sufle from "../images/sufle.jpg"
-import mafini from "../images/mafini.jpg"
 export default function Deserti(){
     const desertiOffer =[
         {   name: "Palačinke sa čokoladnim kremom (plazma po izboru)",
@@ -43,21 +38,6 @@ export default function Deserti(){
             description: "Dve palačinke, džem od kajsija.",
             price: "480.00 RSD",
         },
-        {   name: "Slatki zalogaj (mašnice) - (POSNO - opciono)",
-            image: masnice,
-            description: "Prženo testo sa slatkim dodacima, posna varijanta sadrži samo džem od kajsije.",
-            price: "560.00 RSD",
-        },
-        {   name: "Pizza švarcvald",
-            image: svarcvaldPica,
-            description: "Čokoladni krem, sos od višanja 60g, mlevena plazma, toping.",
-            price: "695.00 RSD",
-        },
-        {   name: "Pizza šeherezada",
-            image: seherezadaPica,
-            description: "Beli krem, sos od malina 60g, mlevena plazma.",
-            price: "695.00 RSD",
-        },
         {   name: "Waffle čoko krem",
             image: vafliCokoKrem,
             description: "Waffle kolač, čokoladni krem, toping, plazma.",
@@ -78,22 +58,11 @@ export default function Deserti(){
             description: "Waffle kolač, mlečni beli krem, toping, plazma, sos od malina.",
             price: "570.00 RSD",
         },
-        {   name: "Plazma urmašice",
-            image: urmasice,
-            description: "",
-            price: "290.00 RSD",
-        },
         {   name: "Čoko sufle",
             image: sufle,
             description: "Sufle sa lešnik kremom i prelivom od maline.",
             price: "325.00 RSD",
         },
-        {   name: "Mafin malina/čoko krem",
-            image: mafini,
-            description: "Dva mafina sa malinom ili čokoladnim kremom.",
-            price: "315.00 RSD",
-        },
-        
     ]
     return(
         <div>

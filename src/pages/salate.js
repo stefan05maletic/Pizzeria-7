@@ -6,7 +6,6 @@ import tunaSalata from "../images/tuna-salata.jpg"
 import grcka from "../images/grcka-salata.jpg"
 import salata7 from "../images/salata7.jpg"
 import mediteranskaLignje from "../images/salata-lignje.jpg"
-import mediteranskaMorskiPlodovi from "../images/salata-morski-plodovi.jpg"
 export default function Salate(){
     const salateOffer =[
         {   name: "Cezar salata",
@@ -32,11 +31,6 @@ export default function Salate(){
         {   name: "Mediteranska salata sa lignjama",
             image: mediteranskaLignje,
             description: "Ajsberg, zelena salata, kukuruz, čeri paradajz, masline, cezar dresing, lignje, focaccia.",
-            price: "1165.00 RSD",
-        },
-        {   name: "Salata morski plodovi",
-            image: mediteranskaMorskiPlodovi,
-            description: "Ajsberg, zelena salata, kukuruz, čeri paradajz, masline, cezar dresing, morski plodovi, focaccia.",
             price: "1165.00 RSD",
         },
     ]

@@ -17,12 +17,10 @@ import sunkaSir from "../images/omlet-sunka-sir.jpg"
 import omletPrsuta from "../images/omlet-prsuta.jpg" 
 import grilovano from "../images/omlet-grilovano.jpg" 
 import fetaSlanina from "../images/omlet-feta-slanina.jpg" 
-import dimljeni from "../images/omlet-dimljeni-sir.jpg"
 import ustipciSunka from "../images/ustipci-sunka.jpg"
 import ustipciPrsuta from "../images/ustipci-prsuta.jpg"
 import ustipciGrilovano from "../images/ustipci-grilovano.jpg"
 import ustipciSlatki from "../images/slatki-ustipci.jpg"
-import ustipciNamazani from "../images/namazani-ustipci.jpg"
 import kompletLepinja from "../images/komplet-lepinja.jpg"
 
 export default function Dorucak(){
@@ -117,12 +115,6 @@ export default function Dorucak(){
             price:"480.00 RSD",
         },
         {
-            name:"Omlet sa dimljenim sirom",
-            image:dimljeni,
-            description:"Jaja 3kom, dimljeni sir 70g, sirni namaz, sezonska salata i domaća lepinja.",
-            price:"530.00 RSD",
-        },
-        {
             name:"Omlet sa fetom i slaninom",
             image:fetaSlanina,
             description:"Jaja 3kom, slanina 40g, feta sir 30g, sirni namaz, sezonska salata i domaća lepinja.",
@@ -145,12 +137,6 @@ export default function Dorucak(){
             image:ustipciGrilovano,
             description:"Uštipci 6kom, grilovano povrće, tzatziki sos, ajvar. Posna varijanta sadrži samo sa ajvarom.",
             price:"480.00 RSD",
-        },
-        {
-            name:"Namazani uštipci",
-            image:ustipciNamazani,
-            description:"Uštipci 8kom, sirni namaz sa svežom crvenom paprikom pavlakom i susamom.",
-            price:"465.00 RSD",
         },
         {
             name:"Slatki uštipci (POSNO - opciono)",

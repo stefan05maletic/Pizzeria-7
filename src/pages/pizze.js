@@ -13,8 +13,6 @@ import prsuta from "../images/pica-prsuta.jpg"
 import quatro from "../images/quatro-pica.jpg"
 import tuna from "../images/tuna-pica.jpg"
 import gljive from "../images/pica-gljive.jpg"
-import pub from "../images/pub-pica.jpg"
-import chickenPesto from "../images/chicken-pesto.jpg"
 import vege from "../images/vege.jpg"
 import extraHot from "../images/extra-hot.jpg"
 import calzona from "../images/kalcona.jpg"
@@ -80,16 +78,6 @@ export default function Pizze(){
             image: gljive,
             description: "Beli pizza sos, kombinacija sireva, začinjeni šampinjoni, peršun. Posna varijanta sadrži pelat i biljni sir umesto belog pizza sosa.",
             price: "995.00/1570.00 RSD",
-        },
-        {   name: "Pub (pivska) 32/50cm",
-            image: pub,
-            description: "Beli pizza sos, kombinacija sireva, roštilj kobasica, ljubičasti luk, peršun.",
-            price: "1150.00/1810.00 RSD",
-        },
-        {   name: "Chicken pesto 32/50cm",
-            image: chickenPesto,
-            description: "Kombinacija sireva, piletina, grilovana paprika, pesto sos.",
-            price: "1120.00/1790.00 RSD",
         },
         {   name: "Vegetariana 32/50cm (POSNO - opciono)",
             image: vege,
