@@ -6,6 +6,7 @@ import tunaSalata from "../images/tuna-salata.jpg"
 import grcka from "../images/grcka-salata.jpg"
 import salata7 from "../images/salata7.jpg"
 import mediteranskaLignje from "../images/salata-lignje.jpg"
+import salataBianca from "../images/bianca-salata.jpg"
 export default function Salate(){
     const salateOffer =[
         {   name: "Cezar salata",
@@ -32,6 +33,11 @@ export default function Salate(){
             image: mediteranskaLignje,
             description: "Ajsberg, zelena salata, kukuruz, čeri paradajz, masline, cezar dresing, lignje, focaccia.",
             price: "1165.00 RSD",
+        },
+        {   name: "Salata Bianca",
+            image: salataBianca,
+            description: "Krastavac 250g, tzatziki, kupus mix, limun, začini, pohovan pileći file 150g, parmezan, focaccia.",
+            price: "930.00 RSD",
         },
     ]
     return(

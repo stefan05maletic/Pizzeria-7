@@ -6,12 +6,11 @@ import pohovanaPiletina from "../images/cebata-pohovana-piletina.jpg"
 import prsuta from "../images/cebata-prsuta.jpg"
 import slanina from "../images/cebata-slanina.jpg"
 import grilovano from "../images/cebata-grilovano.jpg"
-import peperoni from "../images/peperoni-cebata.jpg"
 import tuna from "../images/cebata-tuna.jpg"
 import giros from "../images/giros.jpg"
 import index from "../images/index-cebata.jpg"
-import rostilj from "../images/rostilj-cebata.jpg"
 import cezar from "../images/cezar-cebata.jpg"
+import cepkana from "../images/cepkana-junetina.jpg"
 export default function Cebate(){
     const cebateOffer =[
         {   name: "Ćebata sa šunkom",
@@ -58,6 +57,11 @@ export default function Cebate(){
             image: cezar,
             description: "Cezar dresing, grilovani pileći file 120g, slanina pančeta 50g, zelena salata, paradajz, parmezan.",
             price: "655.00 RSD",
+        },
+        {   name: "Ćebata sa cepkanom junetinom",
+            image: cepkana,
+            description: "Začinjena blago pikantna cepkana junetina, sir, luk.",
+            price: "755.00 RSD",
         },
     ]
     return(

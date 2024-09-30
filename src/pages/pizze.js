@@ -16,6 +16,7 @@ import gljive from "../images/pica-gljive.jpg"
 import vege from "../images/vege.jpg"
 import extraHot from "../images/extra-hot.jpg"
 import calzona from "../images/kalcona.jpg"
+import picaBianca from "../images/bianca-pica.jpg"
 
 export default function Pizze(){
     const pizzeOffer =[
@@ -93,6 +94,11 @@ export default function Pizze(){
             image: calzona,
             description: "Beli pizza sos, kajmak, šunka, pršut, piletina, kombinacija sireva, parmezan.",
             price: "1100.00 RSD",
+        },
+        {   name: "Pica Bianca 32/50cm",
+            image: picaBianca,
+            description: "Beli pizza sos, kombinacija sireva, gorgonzola, slanina, krem od spanaća, susam, rukola.",
+            price: "1150.00/1790.00 RSD",
         },
         
 

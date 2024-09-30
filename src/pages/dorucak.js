@@ -133,6 +133,11 @@ export default function Dorucak(){
             price:"655.00 RSD",
         },
         {
+            name:"Uštipci sa namazom",
+            description:"Uštipci 8kom, 2 dodatka po izboru (feta, kajmak, ajvar, slatki dodatak).",
+            price:"465.00 RSD",
+        },
+        {
             name:"Uštipci sa grilovanim povrćem (POSNO - opciono)",
             image:ustipciGrilovano,
             description:"Uštipci 6kom, grilovano povrće, tzatziki sos, ajvar. Posna varijanta sadrži samo sa ajvarom.",
@@ -147,7 +152,7 @@ export default function Dorucak(){
         {
             name:"Komplet lepinja (SEZONSKI)",
             image:kompletLepinja,
-            description:"Domaća lepinja, kajmak, jaje, pretop. Može se poručiti samo u zimskom periodu.",
+            description:" Somun, kajmak, jaje, pretop. Može se poručiti samo u zimskom periodu.",
             price:"450.00 RSD",
         },
     ]

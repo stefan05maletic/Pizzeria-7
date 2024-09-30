@@ -10,13 +10,14 @@ import piletinaGljive from "../images/piletina-gljive.jpg"
 import piletinaKikiriki from "../images/piletina-kikiriki.jpg"
 import piletinaSpanac from "../images/piletina-spanac.jpg"
 import fileSaRostilja from "../images/file-sa-rostilja.jpg"
-import kariPiletina from "../images/kari-piletina.jpg"
 import batak from "../images/batak.jpg"
 import pohovaniSir from "../images/pohovani-sir.jpg"
 import pomfrit from "../images/pomfrit500g.jpg"
 import corba from "../images/corba.jpg"
 import pasulj from "../images/pasulj.jpg"
 import gulas from "../images/gulas.jpg"
+import cevapi from "../images/cevapi.jpg"
+import brziVoz from "../images/brzi-voz.jpg"
 export default function Rostilj(){
     const rostiljOffer =[
         {   name: "Roštilj kobasica 200g",
@@ -94,6 +95,16 @@ export default function Rostilj(){
             image: gulas,
             description: "Juneći gulaš, domaća testenina, sezonska salata, domaća lepinja.",
             price: "995.00 RSD",
+        },
+        {   name: "7-ca ćevapi",
+            image: cevapi,
+            description: "250g ćevapa, pomfrit, luk, kajmak, domaća lepinja.",
+            price: "1050.00 RSD",
+        },
+        {   name: "7-ca brzi voz",
+            image: brziVoz,
+            description: "Mix ćevapa, kobasice i pečene slanine, pomfrit, kajmak, luk i domaća lepinja.",
+            price: "1195.00 RSD",
         },
     ]
     return(

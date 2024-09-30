@@ -11,11 +11,8 @@ import tuna from "../images/tuna-pasta.jpg"
 import gorgonzola from "../images/piletina-gorgonzola.jpg"
 import tikviceSir from "../images/pasta-tikvice-sir.jpg"
 import genoveze from "../images/genoveze.jpg"
-import orientale from "../images/orientale.jpg"
-import morskiPlodovi from "../images/pasta-morski-plodovi.jpg"
 import lignje from "../images/pasta-lignje.jpg"
 import lazanjite from "../images/lazanjite.jpg"
-import kremSpanac from "../images/krem-spanac-pasta.jpg"
 export default function Paste(){
     const pasteOffer =[
         {   name: "Carbonare 450g",

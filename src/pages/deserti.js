@@ -10,7 +10,7 @@ import vafliCokoKrem from "../images/vafli-coko-krem.jpg"
 import vafliBeliKrem from "../images/vafli-beli-krem.jpg"
 import vafliSeherezada from "../images/vafli-seherezada.jpg"
 import vafliSvarcvald from "../images/vafli-svarcvald.jpg"
-import sufle from "../images/sufle.jpg"
+import americke from "../images/americke-palacinke.jpg"
 export default function Deserti(){
     const desertiOffer =[
         {   name: "Palačinke sa čokoladnim kremom (plazma po izboru)",
@@ -58,10 +58,14 @@ export default function Deserti(){
             description: "Waffle kolač, mlečni beli krem, toping, plazma, sos od malina.",
             price: "570.00 RSD",
         },
-        {   name: "Čoko sufle",
-            image: sufle,
-            description: "Sufle sa lešnik kremom i prelivom od maline.",
-            price: "325.00 RSD",
+        {   name: "Američke palačinke (POSNO)",
+            image: americke,
+            description: "Sojino mleko, posni premaz sa dzemom od malina ili kajsije.",
+            price: "495.00 RSD",
+        },
+        {   name: "Slatka pica",
+            description: "Pica testo i premaz od crnog ili belog krema, plazme i  topinga.",
+            price: "615.00 RSD",
         },
     ]
     return(
