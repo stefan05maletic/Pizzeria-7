@@ -11,6 +11,8 @@ import vafliBeliKrem from "../images/vafli-beli-krem.jpg"
 import vafliSeherezada from "../images/vafli-seherezada.jpg"
 import vafliSvarcvald from "../images/vafli-svarcvald.jpg"
 import americke from "../images/americke-palacinke.jpg"
+import slatkaPica from "../images/slatka-pica.jpg"
+
 export default function Deserti(){
     const desertiOffer =[
         {   name: "Palačinke sa čokoladnim kremom (plazma po izboru)",
@@ -64,6 +66,7 @@ export default function Deserti(){
             price: "495.00 RSD",
         },
         {   name: "Slatka pica",
+            image: slatkaPica,
             description: "Pica testo i premaz od crnog ili belog krema, plazme i  topinga.",
             price: "615.00 RSD",
         },

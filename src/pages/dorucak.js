@@ -21,6 +21,7 @@ import ustipciSunka from "../images/ustipci-sunka.jpg"
 import ustipciPrsuta from "../images/ustipci-prsuta.jpg"
 import ustipciGrilovano from "../images/ustipci-grilovano.jpg"
 import ustipciSlatki from "../images/slatki-ustipci.jpg"
+import ustipciNamaz from "../images/ustipci-namaz.jpg"
 import kompletLepinja from "../images/komplet-lepinja.jpg"
 
 export default function Dorucak(){
@@ -134,6 +135,7 @@ export default function Dorucak(){
         },
         {
             name:"Uštipci sa namazom",
+            image: ustipciNamaz,
             description:"Uštipci 8kom, 2 dodatka po izboru (feta, kajmak, ajvar, slatki dodatak).",
             price:"465.00 RSD",
         },

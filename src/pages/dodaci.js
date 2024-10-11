@@ -22,6 +22,7 @@ import paradajzLuk from "../images/paradajz-luk-dodatak.jpg"
 import krem from "../images/krem-dodatak.jpg"
 import preliv from "../images/preliv-dodatak.jpg"
 import sir from "../images/tvrdi-sir-dodatak.jpg"
+import kobasicaDodatak from "../images/kobasica-dodatak.jpg"
 
 
 
@@ -114,6 +115,7 @@ export default function Dodaci(){
         },
         {
             name: "Roštilj kobasica 100g",
+            image: kobasicaDodatak,
             price:"270 RSD",
         }
     ]
