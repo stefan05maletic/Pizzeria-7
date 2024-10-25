@@ -8,6 +8,7 @@ import rostilj from "../images/rostilj.png"
 import deserti from "../images/desert.png"
 import dodaci from "../images/dodaci.png"
 import salata from "../images/salata.png"
+import { Helmet } from "react-helmet"
 export default function Meni(){
     const offer =[
         {   name: "Doručak",
@@ -60,6 +61,13 @@ export default function Meni(){
     ]
     return(
         <div>
+            <Helmet>
+                <title>Meni</title>
+                <meta
+                name="description"
+                content="Odaberite pravi obrok za vas!"
+                />
+            </Helmet>
             <h1 className="title-meniPg">Pogledajte naš meni</h1>
             <div className="meni-container">
                 {offer.map((meni,index)=>(

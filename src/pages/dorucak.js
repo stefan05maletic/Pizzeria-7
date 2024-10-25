@@ -23,7 +23,7 @@ import ustipciGrilovano from "../images/ustipci-grilovano.jpg"
 import ustipciSlatki from "../images/slatki-ustipci.jpg"
 import ustipciNamaz from "../images/ustipci-namaz.jpg"
 import kompletLepinja from "../images/komplet-lepinja.jpg"
-
+import { Helmet } from "react-helmet"
 export default function Dorucak(){
     const dorucakOffer =[
         {   name: "Doručak pizza šunka",
@@ -160,6 +160,13 @@ export default function Dorucak(){
     ]
     return(
         <div>
+           <Helmet>
+                <title>Doručak</title>
+                <meta
+                name="description"
+                content="Jaja na oko, omlet, doručak pice, kajgane, uštipci.."
+                />
+            </Helmet>
             <h1 className="title-meniPg">Doručak</h1>
             <div className="meni-container">
                 {dorucakOffer.map((parts,index)=>(

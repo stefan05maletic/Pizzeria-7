@@ -17,7 +17,7 @@ import vege from "../images/vege.jpg"
 import extraHot from "../images/extra-hot.jpg"
 import calzona from "../images/kalcona.jpg"
 import picaBianca from "../images/bianca-pica.jpg"
-
+import { Helmet } from "react-helmet"
 export default function Pizze(){
     const pizzeOffer =[
         {   name: "Margarita 32/50cm",
@@ -105,6 +105,13 @@ export default function Pizze(){
     ]
     return(
         <div>
+            <Helmet>
+                <title>Pizze</title>
+                <meta
+                name="description"
+                content="Razne vrste pica, od klasičnih, do onih za prave gurmane."
+                />
+            </Helmet>
             <h1 className="title-meniPg">Pizze</h1>
             <div className="meni-container">
                 {pizzeOffer.map((parts,index)=>(

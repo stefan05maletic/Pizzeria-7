@@ -7,6 +7,7 @@ import grcka from "../images/grcka-salata.jpg"
 import salata7 from "../images/salata7.jpg"
 import mediteranskaLignje from "../images/salata-lignje.jpg"
 import salataBianca from "../images/bianca-salata.jpg"
+import { Helmet } from "react-helmet"
 export default function Salate(){
     const salateOffer =[
         {   name: "Cezar salata",
@@ -42,6 +43,13 @@ export default function Salate(){
     ]
     return(
         <div>
+            <Helmet>
+                <title>Salate</title>
+                <meta
+                name="description"
+                content="Ukoliko ste ipak za nešto zdraviji obrok, onda su naše salate pravi izbor za vas."
+                />
+            </Helmet>
             <h1 className="title-meniPg">Obrok salate</h1>
             <div className="meni-container">
                 {salateOffer.map((parts,index)=>(

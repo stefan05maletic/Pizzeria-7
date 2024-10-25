@@ -13,6 +13,7 @@ import tikviceSir from "../images/pasta-tikvice-sir.jpg"
 import genoveze from "../images/genoveze.jpg"
 import lignje from "../images/pasta-lignje.jpg"
 import lazanjite from "../images/lazanjite.jpg"
+import { Helmet } from "react-helmet"
 export default function Paste(){
     const pasteOffer =[
         {   name: "Carbonare 450g",
@@ -78,6 +79,13 @@ export default function Paste(){
     ]
     return(
         <div>
+            <Helmet>
+                <title>Paste</title>
+                <meta
+                name="description"
+                content="Poznato italijansko jelo sa domaćim taljatelama, predstavlja pravi izbor za ukusan ručak!"
+                />
+            </Helmet>
             <h1 className="title-meniPg">Paste</h1>
             <div className="meni-container">
                 {pasteOffer.map((parts,index)=>(

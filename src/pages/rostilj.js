@@ -18,6 +18,7 @@ import pasulj from "../images/pasulj.jpg"
 import gulas from "../images/gulas.jpg"
 import cevapi from "../images/cevapi.jpg"
 import brziVoz from "../images/brzi-voz.jpg"
+import { Helmet } from "react-helmet"
 export default function Rostilj(){
     const rostiljOffer =[
         {   name: "Roštilj kobasica 200g",
@@ -109,6 +110,13 @@ export default function Rostilj(){
     ]
     return(
         <div>
+            <Helmet>
+                <title>Roštilj</title>
+                <meta
+                name="description"
+                content="Pileći specijaliteti sa raznim vrstama preliva."
+                />
+            </Helmet>
             <h1 className="title-meniPg">Roštilj i tradicionalna jela</h1>
             <div className="meni-container">
                 {rostiljOffer.map((parts,index)=>(

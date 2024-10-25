@@ -17,10 +17,22 @@ import Salate from "./pages/salate";
 import Rostilj from "./pages/rostilj";
 import Deserti from "./pages/deserti";
 import Dodaci from "./pages/dodaci";
+import {Helmet} from "react-helmet";
 
 function App() {
   return (
     <Router>
+      <Helmet>
+        <title>Pizzeria Sedmica</title>
+        <meta 
+        name='description'
+        content="Najbolji doručak i najbolja pica u gradu! Velike porcije, profesionalna i brza usluga!"
+        />
+        <meta 
+        name='keywords'
+        content='Pizzeria Sedmica, Sedmica, Pizzeria 7, Picerija Sedmica, Pica, Novi Sad, 7'
+        />
+      </Helmet>
       <Navbar />
       <div>
         <Routes>

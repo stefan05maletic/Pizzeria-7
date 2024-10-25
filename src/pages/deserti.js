@@ -12,7 +12,7 @@ import vafliSeherezada from "../images/vafli-seherezada.jpg"
 import vafliSvarcvald from "../images/vafli-svarcvald.jpg"
 import americke from "../images/americke-palacinke.jpg"
 import slatkaPica from "../images/slatka-pica.jpg"
-
+import { Helmet } from "react-helmet"
 export default function Deserti(){
     const desertiOffer =[
         {   name: "Palačinke sa čokoladnim kremom (plazma po izboru)",
@@ -73,6 +73,13 @@ export default function Deserti(){
     ]
     return(
         <div>
+            <Helmet>
+                <title>Deserti</title>
+                <meta
+                name="description"
+                content="Najbolje za kraj, zasladite se sa uzivanjem."
+                />
+            </Helmet>
             <h1 className="title-meniPg">Deserti</h1>
             <div className="meni-container">
                 {desertiOffer.map((parts,index)=>(

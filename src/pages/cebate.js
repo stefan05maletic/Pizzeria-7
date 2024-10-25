@@ -11,6 +11,7 @@ import giros from "../images/giros.jpg"
 import index from "../images/index-cebata.jpg"
 import cezar from "../images/cezar-cebata.jpg"
 import cepkana from "../images/cepkana-junetina.jpg"
+import { Helmet } from "react-helmet"
 export default function Cebate(){
     const cebateOffer =[
         {   name: "Ćebata sa šunkom",
@@ -66,6 +67,13 @@ export default function Cebate(){
     ]
     return(
         <div>
+            <Helmet>
+                <title>Ćebate</title>
+                <meta
+                name="description"
+                content="Razne vrste sendviča, poznatijih pod italijanskim nazivom 'Ciabatta'"
+                />
+            </Helmet>
             <h1 className="title-meniPg">Ćebate</h1>
             <div className="meni-container">
                 {cebateOffer.map((parts,index)=>(

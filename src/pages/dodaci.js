@@ -23,7 +23,7 @@ import krem from "../images/krem-dodatak.jpg"
 import preliv from "../images/preliv-dodatak.jpg"
 import sir from "../images/tvrdi-sir-dodatak.jpg"
 import kobasicaDodatak from "../images/kobasica-dodatak.jpg"
-
+import { Helmet } from "react-helmet"
 
 
 export default function Dodaci(){
@@ -121,6 +121,13 @@ export default function Dodaci(){
     ]
     return(
         <div>
+            <Helmet>
+                <title>Dodaci</title>
+                <meta
+                name="description"
+                content="Ukoliko smo nešto zaboravili kao sastojak, ispravite nas!"
+                />
+            </Helmet>
             <h1 className="title-meniPg">Dodaci</h1>
             <div className="meni-container">
                 {dodaciOffer.map((parts,index)=>(
