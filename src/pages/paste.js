@@ -73,7 +73,7 @@ export default function Paste(){
         },
         {   name: "Pasta Nera sa lignjama 450g (POSNO)",
             image: lignje,
-            description: "Domaće tagliatelle sa sipinim mastilom, lignje 150g, viono, marinada od belog luka, limun, začini.",
+            description: "Domaće tagliatelle sa sipinim mastilom, lignje 150g, vino, marinada od belog luka, limun, začini.",
             price: "1130.00 RSD",
         },   
     ]

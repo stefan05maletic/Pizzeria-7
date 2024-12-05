@@ -142,7 +142,7 @@ export default function Dorucak(){
         {
             name:"Uštipci sa grilovanim povrćem (POSNO - opciono)",
             image:ustipciGrilovano,
-            description:"Uštipci 6kom, grilovano povrće, tzatziki sos, ajvar. Posna varijanta sadrži samo sa ajvarom.",
+            description:"Uštipci 6kom, grilovano povrće, tzatziki sos, ajvar. Posna varijanta sadrži samo ajvar.",
             price:"480.00 RSD",
         },
         {
