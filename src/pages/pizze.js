@@ -17,6 +17,7 @@ import vege from "../images/vege.jpg"
 import extraHot from "../images/extra-hot.jpg"
 import calzona from "../images/kalcona.jpg"
 import picaBianca from "../images/bianca-pica.jpg"
+import pida from "../images/pida.jpg"
 import { Helmet } from "react-helmet"
 export default function Pizze(){
     const pizzeOffer =[
@@ -100,8 +101,12 @@ export default function Pizze(){
             description: "Beli pizza sos, kombinacija sireva, gorgonzola, slanina, krem od spanaća, susam, rukola.",
             price: "1150.00/1790.00 RSD",
         },
-        
-
+        {
+            name: "Pide sa mesom i povrćem",
+            image: pida,
+            description: "Pica testo zapečeno sa mlevenim mesom i povrćem.",
+            price: "1095.00 RSD",
+        },
     ]
     return(
         <div>

@@ -18,6 +18,7 @@ import pasulj from "../images/pasulj.jpg"
 import gulas from "../images/gulas.jpg"
 import cevapi from "../images/cevapi.jpg"
 import brziVoz from "../images/brzi-voz.jpg"
+import hajduckiCevap from "../images/hajduckiCevap.jpg"
 import { Helmet } from "react-helmet"
 export default function Rostilj(){
     const rostiljOffer =[
@@ -106,6 +107,12 @@ export default function Rostilj(){
             image: brziVoz,
             description: "Mix ćevapa, kobasice i pečene slanine, pomfrit, kajmak, luk i domaća lepinja.",
             price: "1195.00 RSD",
+        },
+        {
+            name: "Hajdučki ćevap",
+            image: hajduckiCevap,
+            description: "Ćevapi u preklopljenom pica testu sa kajmakom.",
+            price: "1095.00 RSD",
         },
     ]
     return(

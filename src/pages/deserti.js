@@ -12,6 +12,7 @@ import vafliSeherezada from "../images/vafli-seherezada.jpg"
 import vafliSvarcvald from "../images/vafli-svarcvald.jpg"
 import americke from "../images/americke-palacinke.jpg"
 import slatkaPica from "../images/slatka-pica.jpg"
+import krambl from "../images/krambl.jpg"
 import { Helmet } from "react-helmet"
 export default function Deserti(){
     const desertiOffer =[
@@ -69,6 +70,12 @@ export default function Deserti(){
             image: slatkaPica,
             description: "Pica testo i premaz od crnog ili belog krema, plazme i  topinga.",
             price: "615.00 RSD",
+        },
+        {
+            name:"Krambl od jabuke sa sosom od višanja (POSNO)",
+            image: krambl,
+            description: "Pita sa jabukama, preliv sos od višanja.",
+            price: "395.00 RSD",
         },
     ]
     return(
