@@ -2,7 +2,7 @@ import MeniSection from "../components/meni-section"
 import ustipciGrilovano from "../images/ustipci-grilovano.jpg"
 import tuna from "../images/cebata-tuna.jpg"
 import tunaSalata from "../images/tuna-salata.jpg"
-import lignje from "../images/pasta-lignje.jpg"
+import krambl from "../images/krambl.jpg"
 import gljive from "../images/pica-gljive.jpg"
 import vege from "../images/vege.jpg"
 
@@ -24,11 +24,12 @@ export default function Recomendation(){
             description: "Tunjevina 60g, krastavac, čeri paradajz, paprika, ljubčasti luk, crne masline, zelena salata, limun, kukuruz, fokaccia.",
             price: "810.00 RSD",
         },
-        {   name: "Pasta Nera sa lignjama 450g (POSNO)",
-            image: lignje,
-            description: "Domaće tagliatelle sa sipinim mastilom, lignje 150g, vino, marinada od belog luka, limun, začini.",
-            price: "1130.00 RSD",
-        },   
+        {
+            name:"Krambl od jabuke sa sosom od višanja (POSNO)",
+            image: krambl,
+            description: "Pita sa jabukama, preliv sos od višanja.",
+            price: "395.00 RSD",
+        },  
         {   name: "Pizza gljive 32/50cm (POSNO - opciono)",
             image: gljive,
             description: "Beli pizza sos, kombinacija sireva, začinjeni šampinjoni, peršun. Posna varijanta sadrži pelat i biljni sir umesto belog pizza sosa.",

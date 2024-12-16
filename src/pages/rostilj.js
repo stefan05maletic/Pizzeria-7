@@ -19,6 +19,7 @@ import gulas from "../images/gulas.jpg"
 import cevapi from "../images/cevapi.jpg"
 import brziVoz from "../images/brzi-voz.jpg"
 import hajduckiCevap from "../images/hajduckiCevap.jpg"
+import paradajzCorba from "../images/paradajzCorba.jpg"
 import { Helmet } from "react-helmet"
 export default function Rostilj(){
     const rostiljOffer =[
@@ -87,6 +88,11 @@ export default function Rostilj(){
             image: corba,
             description: "Pileći file 130g, šargarepa, celer, kisela pavlaka, focaccia.",
             price: "585.00 RSD",
+        },
+        {   name: "Paradajz potaž 0.5l (POSNO - opciono)",
+            image: paradajzCorba,
+            description: "Potaž od paradajza, kisela pavlaka, focaccia. Posna verzija ne sadrži pavlaku.",
+            price: "410.00 RSD",
         },
         {   name: "Pasulj sa kobasicama",
             image: pasulj,
