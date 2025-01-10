@@ -1,46 +1,49 @@
 import MeniSection from "../components/meni-section"
-import ustipciGrilovano from "../images/ustipci-grilovano.jpg"
-import tuna from "../images/cebata-tuna.jpg"
-import tunaSalata from "../images/tuna-salata.jpg"
-import krambl from "../images/krambl.jpg"
-import gljive from "../images/pica-gljive.jpg"
-import vege from "../images/vege.jpg"
+import ustipciPrsuta from "../images/ustipci-prsuta.jpg"
+import domaca from "../images/domaca-kajgana.jpg" 
+import cepkana from "../images/cepkana-junetina.jpg"
+import genoveze from "../images/genoveze.jpg"
+import smokingGun from "../images/smoking-gun.jpg"
+import sicilijana from "../images/sicilijanska-snicla.jpg"
 
 export default function Recomendation(){
     const recomendationOffer = [
-        {
-            name:"Uštipci sa grilovanim povrćem (POSNO - opciono)",
-            image:ustipciGrilovano,
-            description:"Uštipci 6kom, grilovano povrće, tzatziki sos, ajvar. Posna varijanta sadrži samo ajvar.",
-            price:"480.00 RSD",
-        },
-        {   name: "Ćebata sa tunjevinom (POSNO)",
-            image: tuna,
-            description: "Tuna 80g, pelat, zelena salata, ljubičasti luk, paprika i kiseli krastavac.",
-            price: "575.00 RSD",
-        },
-        {   name: "Tuna salata (POSNO)",
-            image: tunaSalata,
-            description: "Tunjevina 60g, krastavac, čeri paradajz, paprika, ljubčasti luk, crne masline, zelena salata, limun, kukuruz, fokaccia.",
-            price: "810.00 RSD",
-        },
-        {
-            name:"Krambl od jabuke sa sosom od višanja (POSNO)",
-            image: krambl,
-            description: "Pita sa jabukama, preliv sos od višanja.",
-            price: "395.00 RSD",
-        },  
-        {   name: "Pizza gljive 32/50cm (POSNO - opciono)",
-            image: gljive,
-            description: "Beli pizza sos, kombinacija sireva, začinjeni šampinjoni, peršun. Posna varijanta sadrži pelat i biljni sir umesto belog pizza sosa.",
-            price: "995.00/1570.00 RSD",
-        },
-        {   name: "Vegetariana 32/50cm (POSNO - opciono)",
-            image: vege,
-            description: "Pelat, kombinacija sireva, tikvice, paprika, šampinjoni, kukuruz šećerac, crne masline, pesto sos, rukola, čeri paradajz. Posna varijanta sadrži biljni sir.",
-            price: "1020.00/1580.00 RSD",
-        },
-
+    {
+        name:"Uštipci sa pršutom",
+        image:ustipciPrsuta,
+        description:"Uštipci 6kom, pršut 70g, kajmak, ajvar, jaje i paradajz.",
+        price:"655.00 RSD",
+    },
+    {
+        name:"Domaća kajgana",
+        image:domaca,
+        description:"Jaja 3kom, luk, slanina, sirni namaz, sezonska salata i domaća lepinja.",
+        price:"480.00 RSD",
+    },
+    {  
+        name: "Ćebata sa cepkanom junetinom",
+        image: cepkana,
+        description: "Začinjena blago pikantna cepkana junetina, sir, luk.",
+        price: "755.00 RSD",
+     },
+    {  
+        name: "Genovese 450g",
+        image: genoveze,
+        description: "Domaće tagliatelle, piletina, tikvice, neutralna pavlaka, pesto sos, začini. ",
+        price: "1020.00 RSD",
+    },
+    {   
+        name: "Smoking gun 32/50cm",
+        image: smokingGun,
+        description: "Pelat, kombinacija sireva, šunka, slanina, paprika, dimljeni sir.",
+        price: "1050.00/1670.00 RSD",
+    },
+    {
+        name: "Sicilijanska šnicla",
+        image: sicilijana,
+        description: "Pohovani pileći file, pelat, testenina u marinadi, kačkavalj, parmezan.",
+        price: "1050.00 RSD",
+    },
     ]
     return(
         <div>

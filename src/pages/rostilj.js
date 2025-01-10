@@ -91,7 +91,7 @@ export default function Rostilj(){
         },
         {   name: "Paradajz potaž 0.5l (POSNO - opciono)",
             image: paradajzCorba,
-            description: "Potaž od paradajza, kisela pavlaka, focaccia. Posna verzija ne sadrži pavlaku.",
+            description: "Paradajz pelat, šargarepa, luk, kukuruz, neutralna pavlaka, focaccia. Posna verzija ne sadrži pavlaku.",
             price: "410.00 RSD",
         },
         {   name: "Pasulj sa kobasicama",
