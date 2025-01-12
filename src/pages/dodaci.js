@@ -30,7 +30,7 @@ export default function Dodaci(){
     const dodaciOffer =[
         {   name: "Pomfrit 170g",
             image: pomfrit,
-            price: "170.00 RSD",
+            price: "175.00 RSD",
         },
         {   name: "Ajvar 60g",
             image: ajvar,
@@ -90,19 +90,19 @@ export default function Dodaci(){
         },
         {   name: "Sezonska salata",
             image: sezonska,
-            price: "170.00 RSD",
+            price: "175.00 RSD",
         },
         {   name: "Paradajz salata sa fetom",
             image:paradajzFeta,
-            price: "245.00 RSD",
+            price: "250.00 RSD",
         },
         {   name: "Paradajz salata sa lukom",
             image: paradajzLuk,
-            price: "220.00 RSD",
+            price: "225.00 RSD",
         },
         {   name: "Krem",
             image: krem,
-            price: "110.00 RSD",
+            price: "115.00 RSD",
         },
         {   name: "Preliv",
             image: preliv,
@@ -116,7 +116,7 @@ export default function Dodaci(){
         {
             name: "Roštilj kobasica 100g",
             image: kobasicaDodatak,
-            price:"270 RSD",
+            price:"245 RSD",
         }
     ]
     return(

@@ -12,37 +12,37 @@ export default function Recomendation(){
         name:"Uštipci sa pršutom",
         image:ustipciPrsuta,
         description:"Uštipci 6kom, pršut 70g, kajmak, ajvar, jaje i paradajz.",
-        price:"655.00 RSD",
+        price:"660.00 RSD",
     },
     {
         name:"Domaća kajgana",
         image:domaca,
         description:"Jaja 3kom, luk, slanina, sirni namaz, sezonska salata i domaća lepinja.",
-        price:"480.00 RSD",
+        price:"485.00 RSD",
     },
     {  
         name: "Ćebata sa cepkanom junetinom",
         image: cepkana,
         description: "Začinjena blago pikantna cepkana junetina, sir, luk.",
-        price: "755.00 RSD",
+        price: "765.00 RSD",
      },
     {  
         name: "Genovese 450g",
         image: genoveze,
         description: "Domaće tagliatelle, piletina, tikvice, neutralna pavlaka, pesto sos, začini. ",
-        price: "1020.00 RSD",
+        price: "1025.00 RSD",
     },
     {   
         name: "Smoking gun 32/50cm",
         image: smokingGun,
         description: "Pelat, kombinacija sireva, šunka, slanina, paprika, dimljeni sir.",
-        price: "1050.00/1670.00 RSD",
+        price: "1055.00/1675.00 RSD",
     },
     {
         name: "Sicilijanska šnicla",
         image: sicilijana,
         description: "Pohovani pileći file, pelat, testenina u marinadi, kačkavalj, parmezan.",
-        price: "1050.00 RSD",
+        price: "1055.00 RSD",
     },
     ]
     return(
