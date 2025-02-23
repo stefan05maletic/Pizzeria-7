@@ -15,7 +15,7 @@ export default function BasicInfo() {
             <img src={logo2} alt="Logo"/>     
         </div>
         <div className="col typography">
-            <h1 className="title">Ko smo mi?</h1>
+            <h2 className="title">Ko smo mi?</h2>
             {list.map((item, index) => (
                 <p className="information-item" key={index}>{item}</p>
             ))}

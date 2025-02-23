@@ -76,7 +76,7 @@ export default function Dodaci(){
             image: prazni,
             price: "310.00 RSD",
         },
-        {   name: "Pršut 40g",
+        {   name: "Suvi vrat 40g",
             image: prsuta,
             price: "275.00 RSD",
         },

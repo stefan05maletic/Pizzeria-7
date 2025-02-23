@@ -44,9 +44,9 @@ export default function Dorucak(){
             price:"535.00 RSD",
         },
         {
-            name:"Doručak pizza pršuta",
+            name:"Doručak pizza suvi vrat",
             image:prsuta, 
-            description:"Pizza 25cm sa pršutom, pelatom, sirom, jajetom, čeri paradajzom i marinadom od belog luka.",    
+            description:"Pizza 25cm sa suvim vratom, pelatom, sirom, jajetom, čeri paradajzom i marinadom od belog luka.",    
             price:"755.00 RSD",
         },
         {
@@ -74,9 +74,9 @@ export default function Dorucak(){
             price:"505.00 RSD",
         },
         {
-            name:"Jaja sa pršutom",
+            name:"Jaja sa suvim vratom",
             image:jajaPrsuta,
-            description:"Jaja na oko 3kom, pršuta 50g, sirni namaz, sezonska salata i domaća lepinja.",
+            description:"Jaja na oko 3kom, suvi vrat 50g, sirni namaz, sezonska salata i domaća lepinja.",
             price:"605.00 RSD",
         },
         {
@@ -104,9 +104,9 @@ export default function Dorucak(){
             price:"505.00 RSD",
         },
         {
-            name:"Omlet sa pršutom",
+            name:"Omlet sa suvim vratom",
             image:omletPrsuta,
-            description:"Jaja 3kom, pršut 40g, sirni namaz, sezonska salata i domaća lepinja.",
+            description:"Jaja 3kom, suvi vrat 40g, sirni namaz, sezonska salata i domaća lepinja.",
             price:"605.00 RSD",
         },
         {
@@ -128,9 +128,9 @@ export default function Dorucak(){
             price:"485.00 RSD",
         },
         {
-            name:"Uštipci sa pršutom",
+            name:"Uštipci suvi vrat",
             image:ustipciPrsuta,
-            description:"Uštipci 6kom, pršut 70g, kajmak, ajvar, jaje i paradajz.",
+            description:"Uštipci 6kom, suvi vrat 70g, kajmak, ajvar, jaje i paradajz.",
             price:"660.00 RSD",
         },
         {

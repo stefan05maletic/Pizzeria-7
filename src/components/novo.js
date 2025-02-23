@@ -23,7 +23,7 @@ export default function Novo(){
     ]
     return(
         <div>
-            <h1 className="title-meniPg">Novo u ponudi!</h1>
+            <h3 className="title-meniPg">Novo u ponudi!</h3>
             <div className="meni-container meni-recomendation">
                 {novaPonuda.map((parts,index)=>(
                     <MeniSection key={index} parts={parts}/>

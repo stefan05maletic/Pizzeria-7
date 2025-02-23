@@ -9,9 +9,9 @@ import sicilijana from "../images/sicilijanska-snicla.jpg"
 export default function Recomendation(){
     const recomendationOffer = [
     {
-        name:"Uštipci sa pršutom",
+        name:"Uštipci suvi vrat",
         image:ustipciPrsuta,
-        description:"Uštipci 6kom, pršut 70g, kajmak, ajvar, jaje i paradajz.",
+        description:"Uštipci 6kom, suvi vrat 70g, kajmak, ajvar, jaje i paradajz.",
         price:"660.00 RSD",
     },
     {
@@ -47,7 +47,7 @@ export default function Recomendation(){
     ]
     return(
         <div>
-            <h1 className="title-meniPg">Preporuka</h1>
+            <h3 className="title-meniPg">Preporuka</h3>
             <div className="meni-container meni-recomendation">
                 {recomendationOffer.map((parts,index)=>(
                     <MeniSection key={index} parts={parts}/>

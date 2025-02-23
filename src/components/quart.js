@@ -5,7 +5,7 @@ export default function Quart(){
                 <iframe title="quart-area" className="map-area" src="https://www.google.com/maps/d/embed?mid=1otXiLEjjqHJcfn_-KHRGdzSpLqpkyTA&hl=en&ehbc=2E312F"></iframe>
             </div>
             <div className="quart-description">
-                <h2>Ulice za koje je dostava besplatna u periodu 12-23h!</h2>
+                <h3>Ulice za koje je dostava besplatna u periodu 12-23h!</h3>
                 <div className="quart-list">
                     <ul className="list1">
                         <li>Arhimandrita Jovana Rajića</li>

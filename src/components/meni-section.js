@@ -4,7 +4,7 @@ export default function PartOfMeni({parts}){
         <div className="meni-card">
             <Images imgSrc={parts.image} pt="65%" wd="100%"/>
             <div className="meni-card-info">
-                <h2 className="meni-title">{parts.name}</h2>
+                <h4 className="meni-title">{parts.name}</h4>
                 <p className="description">{parts.description}</p>
                 <p className="meni-price">{parts.price}</p>
             </div>
