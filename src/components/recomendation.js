@@ -1,5 +1,5 @@
 import MeniSection from "../components/meni-section"
-import ustipciPrsuta from "../images/ustipci-prsuta.jpg"
+import ustipciSuviVrat from "../images/ustipciSuviVrat.jpg"
 import domaca from "../images/domaca-kajgana.jpg" 
 import cepkana from "../images/cepkana-junetina.jpg"
 import genoveze from "../images/genoveze.jpg"
@@ -10,7 +10,7 @@ export default function Recomendation(){
     const recomendationOffer = [
     {
         name:"Uštipci suvi vrat",
-        image:ustipciPrsuta,
+        image:ustipciSuviVrat,
         description:"Uštipci 6kom, suvi vrat 70g, kajmak, ajvar, jaje i paradajz.",
         price:"660.00 RSD",
     },

@@ -9,7 +9,7 @@ import peperoni from "../images/dorucak-pica-peperoni.jpg"
 import novosadska from "../images/dorucak-pica-novosadska.jpg"
 import kobasica from "../images/jaja-kobasica.jpg"
 import slanina from "../images/jaja-slanina.jpg"
-import jajaPrsuta from "../images/jaja-prsuta.jpg"
+import jajaSuviVrat from "../images/jajaSuviVrat.jpg"
 import pecenaSunka from "../images/jaja-sunka.jpg" 
 import domaca from "../images/domaca-kajgana.jpg" 
 import spanac from "../images/kajgana-spanac.jpg" 
@@ -18,7 +18,7 @@ import omletPrsuta from "../images/omlet-prsuta.jpg"
 import grilovano from "../images/omlet-grilovano.jpg" 
 import fetaSlanina from "../images/omlet-feta-slanina.jpg" 
 import ustipciSunka from "../images/ustipci-sunka.jpg"
-import ustipciPrsuta from "../images/ustipci-prsuta.jpg"
+import ustipciSuviVrat from "../images/ustipciSuviVrat.jpg"
 import ustipciGrilovano from "../images/ustipci-grilovano.jpg"
 import ustipciSlatki from "../images/slatki-ustipci.jpg"
 import ustipciNamaz from "../images/ustipci-namaz.jpg"
@@ -75,7 +75,7 @@ export default function Dorucak(){
         },
         {
             name:"Jaja sa suvim vratom",
-            image:jajaPrsuta,
+            image:jajaSuviVrat,
             description:"Jaja na oko 3kom, suvi vrat 50g, sirni namaz, sezonska salata i domaća lepinja.",
             price:"605.00 RSD",
         },
@@ -129,7 +129,7 @@ export default function Dorucak(){
         },
         {
             name:"Uštipci suvi vrat",
-            image:ustipciPrsuta,
+            image:ustipciSuviVrat,
             description:"Uštipci 6kom, suvi vrat 70g, kajmak, ajvar, jaje i paradajz.",
             price:"660.00 RSD",
         },
