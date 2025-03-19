@@ -38,7 +38,7 @@ export default function Dodaci(){
         },
         {   name: "Kajmak",
             image: kajmak,
-            price: "150.00 RSD",
+            price: "145.00 RSD",
         },
         {   name: "Kukuruz šećerac",
             image: kukuruz,

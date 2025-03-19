@@ -35,7 +35,7 @@ export default function Dorucak(){
             name:"Doručak pizza slaninica",
             image:slaninica,
             description:"Pizza 25cm sa pančetom, sirom, jajima, paradajzom i pavlakom.",
-            price:"585.00 RSD",
+            price:"580.00 RSD",
         },
         {
             name:"Doručak pizza povrće",
@@ -131,7 +131,7 @@ export default function Dorucak(){
             name:"Uštipci suvi vrat",
             image:ustipciSuviVrat,
             description:"Uštipci 6kom, suvi vrat 70g, kajmak, ajvar, jaje i paradajz.",
-            price:"660.00 RSD",
+            price:"665.00 RSD",
         },
         {
             name:"Uštipci sa namazom",

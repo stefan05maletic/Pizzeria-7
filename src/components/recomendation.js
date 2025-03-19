@@ -12,7 +12,7 @@ export default function Recomendation(){
         name:"Uštipci suvi vrat",
         image:ustipciSuviVrat,
         description:"Uštipci 6kom, suvi vrat 70g, kajmak, ajvar, jaje i paradajz.",
-        price:"660.00 RSD",
+        price:"665.00 RSD",
     },
     {
         name:"Domaća kajgana",
