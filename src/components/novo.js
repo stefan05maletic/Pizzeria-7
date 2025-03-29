@@ -1,7 +1,7 @@
 import MeniSection from "../components/meni-section"
-import krambl from "../images/krambl.jpg"
 import hajduckiCevap from "../images/hajduckiCevap.jpg"
-import paradajzCorba from "../images/paradajzCorba.jpg"
+import lenjaPita from "../images/lenja-pita.jpg"
+import medenoSrce from "../images/medeno-srce.jpg"
 export default function Novo(){
     const novaPonuda = [
         {
@@ -10,14 +10,14 @@ export default function Novo(){
             description: "Ćevapi u preklopljenom pica testu sa kajmakom.",
             price: "1105.00 RSD",
         },
-        {   name: "Paradajz potaž 0.5l (POSNO - opciono)",
-            image: paradajzCorba,
-            description: "Paradajz pelat, šargarepa, luk, kukuruz, neutralna pavlaka, focaccia. Posna verzija ne sadrži pavlaku.",
-            price: "415.00 RSD",
+        {   name:"Medeno srce (POSNO)",
+            image: medenoSrce,
+            description: "Kolač sa kajsijom, višnjom ili malinom.",
+            price: "405.00 RSD",
         },
-        {   name:"Krambl od jabuke sa sosom od višanja (POSNO)",
-            image: krambl,
-            description: "Pita sa jabukama, preliv sos od višanja.",
+        {   name: "Lenja pita sa jabukama i višnjom",
+            image: lenjaPita,
+            description: "Pita sa jabukama, višnjom i šećerom u prahu.",
             price: "405.00 RSD",
         },
     ]

@@ -10,9 +10,9 @@ import vafliCokoKrem from "../images/vafli-coko-krem.jpg"
 import vafliBeliKrem from "../images/vafli-beli-krem.jpg"
 import vafliSeherezada from "../images/vafli-seherezada.jpg"
 import vafliSvarcvald from "../images/vafli-svarcvald.jpg"
-import americke from "../images/americke-palacinke.jpg"
 import slatkaPica from "../images/slatka-pica.jpg"
-import krambl from "../images/krambl.jpg"
+import lenjaPita from "../images/lenja-pita.jpg"
+import medenoSrce from "../images/medeno-srce.jpg"
 import { Helmet } from "react-helmet"
 export default function Deserti(){
     const desertiOffer =[
@@ -61,10 +61,10 @@ export default function Deserti(){
             description: "Waffle kolač, mlečni beli krem, toping, plazma, sos od malina.",
             price: "575.00 RSD",
         },
-        {   name: "Američke palačinke (POSNO)",
-            image: americke,
-            description: "Sojino mleko, posni premaz sa dzemom od malina ili kajsije.",
-            price: "505.00 RSD",
+        {   name: "Lenja pita sa jabukama i višnjom",
+            image: lenjaPita,
+            description: "Pita sa jabukama, višnjom i šećerom u prahu.",
+            price: "405.00 RSD",
         },
         {   name: "Slatka pica",
             image: slatkaPica,
@@ -72,9 +72,9 @@ export default function Deserti(){
             price: "625.00 RSD",
         },
         {
-            name:"Krambl od jabuke sa sosom od višanja (POSNO)",
-            image: krambl,
-            description: "Pita sa jabukama, preliv sos od višanja.",
+            name:"Medeno srce (POSNO)",
+            image: medenoSrce,
+            description: "Kolač sa kajsijom, višnjom ili malinom.",
             price: "405.00 RSD",
         },
     ]
