@@ -11,7 +11,6 @@ import vafliBeliKrem from "../images/vafli-beli-krem.jpg"
 import vafliSeherezada from "../images/vafli-seherezada.jpg"
 import vafliSvarcvald from "../images/vafli-svarcvald.jpg"
 import slatkaPica from "../images/slatka-pica.jpg"
-import lenjaPita from "../images/lenja-pita.jpg"
 import medenoSrce from "../images/medeno-srce.jpg"
 import { Helmet } from "react-helmet"
 export default function Deserti(){
