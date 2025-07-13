@@ -1,6 +1,6 @@
 import MeniSection from "../components/meni-section"
 import hajduckiCevap from "../images/hajduckiCevap.jpg"
-import lenjaPita from "../images/lenja-pita.jpg"
+import ustipciPrsuta from "../images/ustipci-prsuta.jpg"
 import medenoSrce from "../images/medeno-srce.jpg"
 export default function Novo(){
     const novaPonuda = [
@@ -8,17 +8,17 @@ export default function Novo(){
             name: "Hajdučki ćevap",
             image: hajduckiCevap,
             description: "Ćevapi u preklopljenom pica testu sa kajmakom.",
-            price: "1105.00 RSD",
+            price: "1135.00 RSD",
         },
         {   name:"Medeno srce (POSNO)",
             image: medenoSrce,
             description: "Kolač sa kajsijom, višnjom ili malinom.",
-            price: "405.00 RSD",
+            price: "415.00 RSD",
         },
-        {   name: "Lenja pita sa jabukama i višnjom",
-            image: lenjaPita,
-            description: "Pita sa jabukama, višnjom i šećerom u prahu.",
-            price: "405.00 RSD",
+        {   name: "Uštipci sa pršutom",
+            image: ustipciPrsuta,
+            description: "6 uštipaka, pršuta, kajmak, ajvar, kuvano jaje, paradajz.",
+            price: "720.00 RSD",
         },
     ]
     return(

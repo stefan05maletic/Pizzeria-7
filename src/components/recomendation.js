@@ -1,5 +1,5 @@
 import MeniSection from "../components/meni-section"
-import ustipciSuviVrat from "../images/ustipciSuviVrat.jpg"
+import ustipciPrsuta from "../images/ustipci-prsuta.jpg"
 import domaca from "../images/domaca-kajgana.jpg" 
 import cepkana from "../images/cepkana-junetina.jpg"
 import genoveze from "../images/genoveze.jpg"
@@ -9,40 +9,40 @@ import sicilijana from "../images/sicilijanska-snicla.jpg"
 export default function Recomendation(){
     const recomendationOffer = [
     {
-        name:"Uštipci suvi vrat",
-        image:ustipciSuviVrat,
-        description:"Uštipci 6kom, suvi vrat 70g, kajmak, ajvar, jaje i paradajz.",
-        price:"665.00 RSD",
+        name:"Uštipci pršuta",
+        image:ustipciPrsuta,
+        description:"Uštipci 6kom, pršuta 70g, kajmak, ajvar, jaje i paradajz.",
+        price:"720.00 RSD",
     },
     {
         name:"Domaća kajgana",
         image:domaca,
         description:"Jaja 3kom, luk, slanina, sirni namaz, sezonska salata i domaća lepinja.",
-        price:"485.00 RSD",
+        price:"495.00 RSD",
     },
     {  
         name: "Ćebata sa cepkanom junetinom",
         image: cepkana,
         description: "Začinjena blago pikantna cepkana junetina, sir, luk.",
-        price: "765.00 RSD",
+        price: "785.00 RSD",
      },
     {  
         name: "Genovese 450g",
         image: genoveze,
         description: "Domaće tagliatelle, piletina, tikvice, neutralna pavlaka, pesto sos, začini. ",
-        price: "1025.00 RSD",
+        price: "1035.00 RSD",
     },
     {   
         name: "Smoking gun 32/50cm",
         image: smokingGun,
         description: "Pelat, kombinacija sireva, šunka, slanina, paprika, dimljeni sir.",
-        price: "1055.00/1675.00 RSD",
+        price: "1075.00/1725.00 RSD",
     },
     {
         name: "Sicilijanska šnicla",
         image: sicilijana,
         description: "Pohovani pileći file, pelat, testenina u marinadi, kačkavalj, parmezan.",
-        price: "1055.00 RSD",
+        price: "1085.00 RSD",
     },
     ]
     return(
