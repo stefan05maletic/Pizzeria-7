@@ -29,7 +29,7 @@ export default function HeroSection(){
                     Brand since 2012.<br></br>
                     Najbolji doručak, i najbolja pica u gradu! Ne propusti priliku, dođi što pre i uveri se u naš kvalitet.. Veliki izbor različitih pica, fantastičnih jela sa roštilja i nezaboravne paste sa domaćim taljatelama. Odaberi idealan obrok za sebe i poruči što pre!
                 </p>
-                <Link to="/meni" className="btn" >Pogledaj meni</Link>
+                <Link to="https://guest.kono.bar/m-93g9it" className="btn" >Pogledaj meni</Link>
             </div>
             <div className="col gallery">
                 {images.map((src, id) => (

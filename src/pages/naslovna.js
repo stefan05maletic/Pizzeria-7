@@ -3,8 +3,8 @@ import BasicInfo from "../components/basicinfo";
 import Panels from "../components/panels";
 import Background from "../components/background";
 import Recomendation from "../components/recomendation";
-import Novo from "../components/novo";
 import Quart from "../components/quart";
+import Ambiente from "../components/ambiente";
 export default function Naslovna(){
     return (
         <div>
@@ -13,9 +13,9 @@ export default function Naslovna(){
                 <HeroSection/>
                 <BasicInfo/>
                 <Recomendation/>
-                <Novo/>
                 <Panels/>
             </div>
+            <Ambiente/>
             <Quart/>
         </div>
     )

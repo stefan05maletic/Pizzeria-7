@@ -64,6 +64,17 @@ img{
     justify-content: center;
     align-items: center;
 }
+.ambienteImg{
+    height: 80vh;
+    width: 100%;
+    background-image: url(../../public/img/naslovna3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @import "partials/navbar";
 @import "partials/hero";
 @import "partials/basicInfo";
