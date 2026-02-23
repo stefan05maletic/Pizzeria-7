@@ -2,20 +2,25 @@ import { Link, useLocation } from "react-router-dom"
 
 import { useState } from "react"
 import Sidebar from "./sidebar" 
-import { faHome, faUtensils} from "@fortawesome/free-solid-svg-icons"
+import { faHome, faCoffee, faCutlery} from "@fortawesome/free-solid-svg-icons"
 export default function Navbar(){
     const [showSidebar, setShowSidebar] = useState(false)
     const location = useLocation()
     const links = [
         {
-            name: "Naslovna",
+            name: "Pizzeria Sedmica",
             path: "/Pizzeria-7",
             icon: faHome
         },
         {
-            name: "Meni",
-            path: "/meni",
-            icon: faUtensils 
+            name: "Sedmica Caffe",
+            path: "/kafeterija",
+            icon: faCoffee
+        },
+        {
+            name: "Sedmica Park",
+            path:"/park",
+            icon: faCutlery
         },
     ]
 function closeSidebar(){
@@ -24,7 +29,7 @@ function closeSidebar(){
     return(
         <>
         <div className="navbar container">
-            <Link to="/Pizzeria-7" className="logo">Pizzeria <span>7</span></Link>
+            <Link to="/Pizzeria-7" className="logo">Brand<span>7</span></Link>
             <div className="nav-links">
                 {links.map(link => (
                     <Link className={location.pathname === link.path ? "active" : ""} to={link.path} key={link.name}>{link.name}</Link>

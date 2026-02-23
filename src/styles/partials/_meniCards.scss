@@ -54,28 +54,4 @@
             transform: scale(1.02);
         }
     }
-    .meni-price{
-        font-size: 1em;
-        color: var(--orange);
-        font-weight: 700;
-        position: absolute;
-        bottom: 1em;
-        left: 1em;
-    }
-}
-.back-tag a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--orange);
-    font-size: 1.5em;
-    margin-bottom: 5em;
-    transition: 0.5s ease-in-out;
-    font-weight: 800;
-    cursor: pointer;
-        &:hover{
-            color: var(--black);
-            transform: scale(1.02);
-        }
-
 }

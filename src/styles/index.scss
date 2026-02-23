@@ -64,7 +64,7 @@ img{
     justify-content: center;
     align-items: center;
 }
-.ambienteImg{
+.ambienteImg {
     height: 80vh;
     width: 100%;
     background-image: url(../../public/img/naslovna3.jpg);
@@ -75,6 +75,30 @@ img{
     justify-content: center;
     align-items: center;
 }
+.ambienteParkImg {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../../public/img/parkbackground.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ambienteKafeImg {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../../public/img/kafebackground.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 @import "partials/navbar";
 @import "partials/hero";
 @import "partials/basicInfo";
