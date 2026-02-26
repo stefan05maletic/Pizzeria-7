@@ -3,4 +3,4 @@ export default function Background(){
         <div className="backgroundImg">
         </div>
     )
-}
+} 

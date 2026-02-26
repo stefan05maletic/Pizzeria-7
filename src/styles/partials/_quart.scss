@@ -1,35 +1,97 @@
-.quart-section{
+.quart-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    height: auto;
-    background-color: var(--black);
-    color: var(--white);
-    .map .map-area{
-        width: 100%;
-        height:28.5em;
+    min-height: 500px;
+    background-color: #ffffff; 
+    overflow: hidden;
+
+    @media (max-width: 992px) {
+        grid-template-columns: 1fr; 
     }
-    .quart-description{
+
+    .map-container {
         width: 100%;
-        text-align: center;
-        padding-top: 1.5em;
+        height: 100%;
+        min-height: 400px;
+        
+        .map-area {
+            width: 100%;
+            height: 100%;
+            border: none;
+            filter: grayscale(0.2) contrast(1.1); 
+        }
     }
-    .quart-list{
+
+    .quart-description {
+        padding: 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fcfcfc;
+
+        .description-header {
+            text-align: center;
+            margin-bottom: 2em;
+
+            .marker-icon {
+                font-size: 2.5em;
+                color: var(--orange);
+                margin-bottom: 0.5em;
+            }
+
+            h3 {
+                font-size: 1.8em;
+                color: var(--black);
+                font-weight: 800;
+                margin-bottom: 0.3em;
+            }
+
+            .time-info {
+                color: var(--black);
+                font-size: 1em;
+                strong { color: var(--orange); }
+            }
+        }
+    }
+
+    .quart-list-wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr ;
-        gap: 5%;
-        padding: 2em 5em;
-        text-align: left;
-        width: 100%;
-        height: auto;
-    }
-    .quart-list ul li{
-        padding-bottom: 0.2em;
-        transition: 0.5s ease-in-out;
-        cursor: pointer;
-        font-weight: 500;
-        &:hover{
-            color: var(--orange);
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+        
+        @media (max-width: 600px) {
+            grid-template-columns: 1fr;
+        }
+
+        .list-col {
+            list-style: none;
+            padding: 0;
+
+            li {
+                font-size: 0.95em;
+                color: var(--black);
+                padding: 0.4em 0;
+                border-bottom: 1px solid #eee;
+                transition: all 0.3s ease;
+                display: flex;
+                align-items: center;
+
+                &::before {
+                    content: "•";
+                    color: var(--orange);
+                    font-weight: bold;
+                    display: inline-block; 
+                    width: 1em;
+                    margin-left: 0;
+                }
+
+                &:hover {
+                    color: var(--orange);
+                    padding-left: 5px;
+                    background-color: rgba(227, 101, 29, 0.05);
+                }
+            }
         }
     }
 }

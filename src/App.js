@@ -1,42 +1,58 @@
-import {
-  HashRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom"
-
-import Navbar from "./components/navbar"
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import Navbar from "./components/navbar";
 import Footer from "./components/footer";
-
-import Naslovna from "./pages/naslovna";
+import Pizzeria from "./pages/pizzeria";
 import Park from "./pages/park";
 import Kafeterija from "./pages/kafeterija";
-import {Helmet} from "react-helmet";
+import LandingPage from "./pages/landingPage";
+import { Helmet } from "react-helmet";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
+function AppContent() {
+  const location = useLocation();
+
+  const getThemeClass = () => {
+    switch (location.pathname) {
+      case "/Pizzeria-7": return "pizzeria-theme";
+      case "/park": return "park-theme";
+      case "/kafeterija": return "kafe-theme";
+      default: return "landing-page-theme";
+    }
+  };
+
+  return (
+    <div className={getThemeClass()}> 
+      <Navbar />
+      <Routes>
+        <Route index element={<LandingPage />} />
+        <Route path="/Pizzeria-7" element={<Pizzeria />} />
+        <Route path="/kafeterija" element={<Kafeterija />} />
+        <Route path="/park" element={<Park />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
+}
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Helmet>
-        <title>Pizzeria Sedmica</title>
-        <meta 
-        name='description'
-        content="Najbolji doručak i najbolja pica u gradu! Velike porcije, profesionalna i brza usluga!"
-        />
-        <meta 
-        name='keywords'
-        content='Pizzeria Sedmica, Sedmica, Pizzeria 7, Picerija Sedmica, Pica, Novi Sad, 7'
-        />
+        <title>Brand 7 | Ugostiteljstvo Novi Sad</title>
+        <meta name='description' content="Pizzeria Sedmica, Sedmica Park i Sedmica Caffe - Vaša omiljena mesta u Novom Sadu." />
       </Helmet>
-      <Navbar />
-      <div>
-        <Routes>
-          <Route index element={<Naslovna/>}/>
-          <Route path="/Pizzeria-7" element={<Naslovna />} />
-          <Route path="/kafeterija" element={<Kafeterija />} />
-          <Route path="/park" element={<Park/>}/>
-        </Routes>
-      </div>
-      <Footer />
+      <AppContent />
     </Router>
-  )
+  );
 }
+
 export default App;

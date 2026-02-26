@@ -1,0 +1,35 @@
+.btn-brand-base {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none !important; 
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+    
+    &:hover {
+        transform: translateY(-3px);
+        filter: brightness(1.1);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+}
+
+.btn-primary {
+    @extend .btn-brand-base;
+    background-color: var(--accent-color) !important;
+    color: #fff !important; 
+}
+
+.btn-secondary {
+    @extend .btn-brand-base;
+    background-color: #000000 !important;
+    color: #fff !important; 
+}
+
+.btn, .btn-brand, .btn-hero {
+    @extend .btn-primary;
+}

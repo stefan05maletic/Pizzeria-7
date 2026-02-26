@@ -2,15 +2,20 @@ import AmbienteKafe from "../components/ambienteKafe";
 import HeroSectionKafe from "../components/herosectionKafe";
 import BasicInfoKafe from "../components/basicinfoKafe";
 import RecomendationCafe from "../components/recomendationCafe";
-export default function Kafeterija(){
+import BlueMountainSection from "../components/blueMountainSection";
+import { Helmet } from "react-helmet";
+
+export default function Kafeterija() {
     return (
-        <div>
-            <AmbienteKafe/>
+        <>
+            <Helmet><title>Sedmica | Kafeterija</title></Helmet>
+            <AmbienteKafe />
             <div className="container main">
-                <HeroSectionKafe/>
-                <BasicInfoKafe/>
-                <RecomendationCafe/>
+                <HeroSectionKafe />
+                <BlueMountainSection/>
+                <BasicInfoKafe />
+                <RecomendationCafe />
             </div>
-        </div>
-    )
+        </>
+    );
 }

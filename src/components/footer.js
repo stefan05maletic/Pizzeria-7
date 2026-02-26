@@ -1,29 +1,39 @@
-import { faSquare, faLocationDot, faPhone, faClock } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import { faLocationDot, faPhone, faClock } from "@fortawesome/free-solid-svg-icons"
+import { faInstagram } from "@fortawesome/free-brands-svg-icons" 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-export default function Footer(){
-    return(
-        <div className="footer">
-            <div className="footer-section">
-                <p className="title">PizzeriaSedmica.com</p>
-                <p> &copy;| 2024 | </p>
+export default function Footer() {
+    return (
+        <footer className="footer">
+            <div className="footer-container">
+                
+                <div className="footer-section brand-section">
+                    <h2 className="footer-logo"> Novi Sad<span>7</span></h2>
+                    <p className="tagline">Najbolji doručak i pica u gradu!</p>
+                    <p className="copy">&copy; 2024 BrandSedmica.com</p>
+                </div>
+                <div className="footer-section location-section">
+                    <h3 className="section-title">Pizzeria Sedmica</h3>
+                    <div className="contact-info">
+                        <p><FontAwesomeIcon icon={faPhone} className="icon"/><a href="tel:+381213032043">021 303 2043</a></p>
+                        <p><FontAwesomeIcon icon={faPhone} className="icon"/><a href="tel:+381668171717">066 817 1717</a></p>
+                        <p><FontAwesomeIcon icon={faLocationDot} className="icon" />Kraljević Marka 23, NS</p>
+                        <p><FontAwesomeIcon icon={faClock} className="icon" />07:00 - 23:00</p>
+                        <p><FontAwesomeIcon icon={faInstagram} className="icon" /><a href="https://www.instagram.com/pizzeriasedmica/" target="_blank" rel="noopener noreferrer">@pizzeriasedmica</a></p>
+                    </div>
+                </div>
+                <div className="footer-section location-section">
+                    <h3 className="section-title">Sedmica Park</h3>
+                    <div className="contact-info">
+                        <p><FontAwesomeIcon icon={faPhone} className="icon"/><a href="tel:+381213039623">021 303 9623</a></p>
+                        <p><FontAwesomeIcon icon={faPhone} className="icon"/><a href="tel:+381668373777">066 837 3777</a></p>
+                        <p><FontAwesomeIcon icon={faLocationDot} className="icon" />Kisačka 39, Novi Sad</p>
+                        <p><FontAwesomeIcon icon={faClock} className="icon" />07:00 - 23:00</p>
+                        <p><FontAwesomeIcon icon={faInstagram} className="icon" /><a href="https://www.instagram.com/sedmicapark/" target="_blank" rel="noopener noreferrer">@sedmicapark</a></p>
+                    </div>
+                </div>
+
             </div>
-            <div className="footer-section">
-                <p className="title">PizzeriaSedmica</p>
-                <p><FontAwesomeIcon icon={faPhone} className="social-icon"/><a href="tel:+021 303 2043">+021 303 2043</a></p>
-                <p><FontAwesomeIcon icon={faPhone} className="social-icon"/><a href="tel:+381 21 303 2043">+381 66 817 1717</a></p>
-                <p><FontAwesomeIcon icon={faLocationDot} className="social-icon" />Kraljević Marka 23 Novi Sad </p>
-                <p><FontAwesomeIcon icon={faClock} className="social-icon"/>Ponedeljak - Nedelja 07:00-23:00</p>
-                <p><FontAwesomeIcon icon={faSquare} className="social-icon"/>Instagram -  <a href="https://www.instagram.com/pizzeriasedmica/" target="_blank" rel="noopener noreferrer">@pizzeriasedmica</a></p>
-            </div>
-            <div className="footer-section">
-                <p className="title">Park</p>
-                <p><FontAwesomeIcon icon={faPhone} className="social-icon"/><a href="tel:+021 303 9623">+021 303 9623</a></p>
-                <p><FontAwesomeIcon icon={faPhone} className="social-icon"/><a href="tel:+381 66 837 3777">+381 66 837 3777</a></p>
-                <p><FontAwesomeIcon icon={faLocationDot} className="social-icon" />Kisačka 39 Novi Sad </p>
-                <p><FontAwesomeIcon icon={faClock} className="social-icon"/>Ponedeljak - Nedelja 07:00-23:00</p>
-                <p><FontAwesomeIcon icon={faSquare} className="social-icon"/>Instagram - <a href="https://www.instagram.com/sedmicapark/" target="_blank" rel="noopener noreferrer">@sedmicapark</a></p>
-            </div>
-        </div>
+        </footer>
     )
 }

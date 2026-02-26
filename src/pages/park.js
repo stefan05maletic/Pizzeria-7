@@ -4,17 +4,23 @@ import Panels from "../components/panels";
 import RecomendationPark from "../components/recomendationPark";
 import QuartPark from "../components/quartPark";
 import AmbientePark from "../components/ambientePark";
-export default function Park(){
+import Proslave from "../components/proslave";
+import { Helmet } from "react-helmet";
+
+
+export default function Park() {
     return (
-        <div>
-            <AmbientePark/>
+        <>
+            <Helmet><title>Sedmica | Park</title></Helmet>
+            <AmbientePark />
             <div className="container main">
-                <HeroSectionPark/>
-                <BasicInfoPark/>
-                <RecomendationPark/>
-                <Panels/>
+                <HeroSectionPark />
+                <Proslave/>
+                <BasicInfoPark />
+                <RecomendationPark />
+                <Panels />
             </div>
-            <QuartPark/>
-        </div>
-    )
+            <QuartPark />
+        </>
+    );
 }
